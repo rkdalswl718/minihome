@@ -1,0 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('https://i.pinimg.com/564x/78/0e/cd/780ecdace24a24a3df306ad0e2423e7f.jpg' );
+    background-size: cover;
+}
