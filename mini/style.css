@@ -7,3 +7,10 @@ body {
     background-image: url('https://i.pinimg.com/564x/78/0e/cd/780ecdace24a24a3df306ad0e2423e7f.jpg' );
     background-size: cover;
 }
+
+.background1 {
+    color: rgb(255, 249, 254,0.7);
+    width: 80%;
+    height: 80%;
+    display: flex;
+}
