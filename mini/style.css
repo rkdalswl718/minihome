@@ -12,7 +12,8 @@ body {
 }
 
 .background1 {
-    background-color: rgb(255, 250, 253,0.75);
+    position: relative;
+    background-color: rgb(249, 249, 249,0.75);
     width: 68.8125rem;
     height: 42.0625rem;
     display: flex;
@@ -20,5 +21,59 @@ body {
     justify-content: center;
     margin: auto;
     margin-top: 30px;
+    border-radius: 15px;
+}
+
+.section1 {
+    position: absolute;
+    top: 4.1rem;
+    left: 16rem;
+    background-color: #ffffff;
+    width: 17.5rem;
+    height: 37.3125rem;
+    border-radius: 15px;
+}
+
+.name {
+    position: absolute;
+    top:1rem;
+    left: 1rem;
+    background-color:#f9f9f9;
+    width: 15.4375rem;
+    height: 2.3125rem;
+    border-radius: 15px;
+    box-shadow: 0px 2px 3px #a7a7a7;
+
+}
+
+.mainImage {
+    position: absolute;
+    top:4.4rem;
+    left:1rem;
+    background-color: #f9f9f9;
+    width: 15.4375rem;
+    height: 9.3625rem;
+    border-radius: 15px;
+    box-shadow: 0px 2px 3px #a7a7a7;
+}
+
+.frineds {
+    position: absolute;
+    top:23rem;
+    left: 1rem;
+    background-color:#f9f9f9;
+    width: 15.4375rem;
+    height: 2.3125rem;
+    border-radius: 15px;
+    box-shadow: 0px 2px 3px #a7a7a7;
+}
+
+.section2 {
+    position: absolute;
+    top: 4.1rem;
+    left: 35rem;
+    background-color: #ffffff;
+    width: 43.0625rem;
+    height: 37.375rem;
     border-radius: 15px;
 }
