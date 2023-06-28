@@ -15,7 +15,7 @@ body {
     position: relative;
     background-color: rgb(249, 249, 249,0.75);
     width: 68.8125rem;
-    height: 42.0625rem;
+    height: 42.3625rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,9 +24,20 @@ body {
     border-radius: 15px;
 }
 
+.date {
+    position: absolute;
+    top: 2.5rem;
+    left: 20rem;
+}
+
+#divide {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
 .section1 {
     position: absolute;
-    top: 4.1rem;
+    top: 4.5rem;
     left: 16rem;
     background-color: #ffffff;
     width: 17.5rem;
@@ -70,10 +81,89 @@ body {
 
 .section2 {
     position: absolute;
-    top: 4.1rem;
+    top: 4.5rem;
     left: 35rem;
     background-color: #ffffff;
-    width: 43.0625rem;
+    width: 43.5625rem;
     height: 37.375rem;
     border-radius: 15px;
+}
+
+li {
+    list-style: none;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    color: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+#home {
+    position: absolute;
+    top:3.5rem;
+    left:41.3rem;
+    background-color: #FFB5E6;
+    width: 4.5rem;
+    height: 2.5rem;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#profile {
+    position: absolute;
+    top:6.5rem;
+    left:41.3rem;
+    background-color: #FFB5E6;
+    width: 4.5rem;
+    height: 2.5rem;
+    flex-shrink: 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#noticeBoard {
+    position: absolute;
+    top:9.5rem;
+    left:41.3rem;
+    background-color: #FFB5E6;
+    width: 4.5rem;
+    height: 2.5rem;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#guestBook {
+    position: absolute;
+    top:12.5rem;
+    left:41.3rem;
+    background-color: #FFB5E6;
+    width: 4.5rem;
+    height: 2.5rem;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#game {
+    position: absolute;
+    top:15.5rem;
+    left:41.3rem;
+    background-color: #FFB5E6;
+    width: 4.5rem;
+    height: 2.5rem;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
