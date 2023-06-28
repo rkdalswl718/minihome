@@ -167,3 +167,11 @@ a {
     align-items: center;
     justify-content: center;
 }
+
+#home:hover,
+#profile:hover,
+#noticeBoard:hover,
+#guestBook:hover,
+#game:hover {
+    background-color: #F5F5F5;
+}
