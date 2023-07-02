@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'ChosunGu';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ChosunGu.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family:'ChosunGu';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: #fff8e1;
+    min-height: 100vh;
+}   
+
+h1 {
+    color: rgb(88, 79, 64);
+    margin-top: 5px;
+    font-size: 36px;
+
+}
+
+
+.bearbear {
+    display: flex;
+}
+
+.bear1 {
+    margin-right: 10px;
+    width: 44px;
+    height: 44px;
+}
+
+.bear2 {
+    margin-left: 10px;
+    width: 44px;
+    height: 44px;
+
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 19px;
+    color: rgb(48, 42, 42);
+}
+
+.bestscore {
+    display: flex;
+}
+
+
+#highScore {
+    margin-top: 10px;
+}
+
+#reset {
+    width: 26px;
+    height: 26px;
+    margin-top: 6px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+#word {
+    margin-top: 10px;
+}
+
+#score {
+    margin-top: 7px;
+    margin-bottom: 0;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    
+}
+
+#input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+#check {
+    margin-left: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    background-color: #4caf50;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+}
+
+.but-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#startGame {
+    margin-right: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    background-color: #337ab7;
+    color: #ffffff;
+    outline: none;
+}
+
+#finishGame {
+    margin-right: 10px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    background-color: #d9534f;
+}
