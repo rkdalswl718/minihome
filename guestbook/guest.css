@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Song+Myung&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin-top: 60px;
+}
+
 #guest {
     width: 500px;
     margin: 0 auto;
@@ -28,6 +37,7 @@ h1 {
     border: 1px solid #767676;
     border-radius: 5px;
     background-color: #fff;
+    margin-bottom: 10px;
 }
 
 .comment p {
