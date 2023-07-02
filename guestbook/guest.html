@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>민지의 방명록</title>
+    <link rel='icon' type='images/png' href='../minji/images/black-heart_1f5a4.png'>
+    <link rel="stylesheet" href="./guest.css">
+</head>
+
+<body>
+    <div id="guest">
+        <h1><img src='https://emojigraph.org/media/apple/black-heart_1f5a4.png' width="30px"> 방명록
+            <img src='https://emojigraph.org/media/apple/black-heart_1f5a4.png' width="30px">
+        </h1>
+        <div id="uu">
+            <form id="comment-form" method="post">
+                <label for="name">닉네임:</label>
+                <input class="form-input" type="text" name="name" id="name" required>
+                <label for="comment">방명록:</label>
+                <textarea class="form-textarea" name="comment" id="comment" required></textarea>
+                <button class="form-submit" type="submit">등록</button>
+        </div>
+        </form>
+        <div id="comment-list"></div>
+    </div>
+    <script>
+        const commentForm = document.getElementById('comment-form');
+        const commentList = document.getElementById('comment-list');
+
+        // 이전에 저장된 방명록 로드
+        const savedComments = JSON.parse(localStorage.getItem('guestbookComments')) || [];
+        commentList.innerHTML = savedComments.join('');
+        // 배열의 모든 요소를 하나의 문자열로 결합, 그 결과를 commentList 내용으로 설정하는 역할
+
+        commentForm.addEventListener('submit', function (e) {
+            e.preventDefault();
+            const { name, comment } = e.target.elements;
+            const timestamp = new Date().toLocaleString();
+            const newComment = `<div class="comment"><p>
+            <span class="name">${name.value}</span>
+            <span class="timestamp">${timestamp}</span></p>
+            <p>${comment.value}</p></div>`;
+            commentList.insertAdjacentHTML('beforeend', newComment);
+            e.target.reset();
+
+            // 새로운 방명록을 로컬 스토리지에 저장
+            savedComments.push(newComment);
+            localStorage.setItem('guestbookComments', JSON.stringify(savedComments));
+        });
+    </script>
+
+</body>
+
+</html>
