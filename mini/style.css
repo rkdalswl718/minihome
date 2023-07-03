@@ -34,8 +34,8 @@ body {
 
 .date {
     position: absolute;
-    top: 2.57rem;
-    left: 20rem;
+    top: 2.9rem;
+    left: 19.15rem;
 }
 
 #divide {
@@ -73,6 +73,12 @@ body {
     
 }
 
+#named {
+    position: absolute;
+    top:0.6rem;
+    left: 6.8rem;
+}
+
 .mainImage {
     position: absolute;
     top:4rem;
@@ -86,10 +92,9 @@ body {
 
 #notice {
     position: absolute;
-    top: 18rem;
+    top: 18.3rem;
     left:2.5rem;
     font-size: 15px;
-
 }
 
 .friends {  
@@ -105,8 +110,49 @@ body {
 
 #friend {
     position: absolute;
-    top: 0.3rem;
-    left: 6rem;
+    top: 0.5rem;
+    left: 5.8rem;
+}
+
+.friending img {
+    
+}
+
+#friend1,#friend2,#friend3, #friend4, #friend5, #friend6 {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 5px;
+    position: absolute;
+}
+
+#friend1{
+    top: 3rem;
+    left: 0.8rem;
+}
+
+#friend2 {
+    top: 3rem;
+    left: 5.8em;
+}
+
+#friend3 {
+    top: 3rem;
+    left: 10.8rem;
+}
+
+#friend4 {
+    top: 8rem;
+    left: 0.8rem;
+}
+
+#friend5 {
+    top: 8rem;
+    left: 5.8rem;
+}
+
+#friend6 {
+    top: 8rem;
+    left: 10.8rem;
 }
 
 .section2 {
@@ -128,6 +174,7 @@ li {
     color: inherit;
     width: 4.7rem;
     height: 2.6rem;
+    font-size: 14px;
 }
 
 a {
@@ -149,7 +196,7 @@ a {
 
 #profile {
     position: absolute;
-    top:6.5rem;
+    top:6.8rem;
     left:41.3rem;
     background-color: #FFB5E6;
     flex-shrink: 0;
@@ -161,7 +208,7 @@ a {
 
 #noticeBoard {
     position: absolute;
-    top:9.5rem;
+    top:10.1rem;
     left:41.3rem;
     background-color: #FFB5E6;
     flex-shrink: 0;
@@ -172,7 +219,7 @@ a {
 
 #guestBook {
     position: absolute;
-    top:12.5rem;
+    top:13.4rem;
     left:41.3rem;
     background-color: #FFB5E6;
     flex-shrink: 0;
@@ -183,7 +230,7 @@ a {
 
 #game {
     position: absolute;
-    top:15.5rem;
+    top:16.7rem;
     left:41.3rem;
     background-color: #FFB5E6;
     flex-shrink: 0;
