@@ -70,7 +70,7 @@ body {
     height: 2.2rem;
     border-radius: 11px;
     border: 1px solid #FEF1F1;
-
+    
 }
 
 .mainImage {
@@ -83,6 +83,14 @@ body {
     border-radius: 11px;
     border: 1px solid #FEF1F1;
 }   
+
+#notice {
+    position: absolute;
+    top: 18rem;
+    left:2.5rem;
+    font-size: 15px;
+
+}
 
 .friends {  
     position: absolute;
@@ -110,6 +118,7 @@ body {
     height: 37.125rem;
     border-radius: 15px;
 }
+
 
 li {
     list-style: none;
