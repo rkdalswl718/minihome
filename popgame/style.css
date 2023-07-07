@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#popcat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#center {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2px;
+}
+
+.score {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size:55px;
+}
+
+.reset {
+    width: 58PX;
+    height: 58px;
+    margin-left: 7px;
+    margin-top: 9PX;
+}
+
+.cat1 {
+    width: 650px;
+    height: 650px;
+}
+    

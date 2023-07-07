@@ -116,4 +116,4 @@ check.style.display = "none"; // 확인 버튼 숨기기
 finishGameBtn.style.display = "none"; // 끝내기 버튼 숨기기
 wrd.style.display = "none"; //단어 숨기기
 scr.style.display = "none"; //점수 숨기기
-highDisplay.textContent = highScore; // 로컬스토리지에 저장된 최고점 보이기'
+highDisplay.textContent = highScore; // 로컬스토리지에 저장된 최고점 보이기
