@@ -12,169 +12,172 @@
 }
 
 body {
-    background-image: url('https://i.pinimg.com/564x/78/0e/cd/780ecdace24a24a3df306ad0e2423e7f.jpg' );
+    background-image: url('https://i.pinimg.com/564x/78/0e/cd/780ecdace24a24a3df306ad0e2423e7f.jpg');
     background-size: cover;
     z-index: -1;
     width: 100%;
     height: 100%;
+    position: relative;
+    
 }
 
+.all {
+    position: absolute;
+    top: 6rem;
+}
+
+
 .background1 {
-    position: relative;
-    background-color: rgb(249, 249, 249,0.7);
+    top: 2rem;
+    left: 26rem;
+    position: absolute;
+    background-color: rgba(249, 249, 249, 0.7);
     width: 68.8125rem;
-    height: 42.3625rem;
+    height: 42.3625rem; 
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin: auto;
-    margin-top: 30px;
+    justify-content: center;/* 30px를 rem으로 변환한 값 */
     border-radius: 15px;
 }
 
 .date {
-    position: absolute;
-    top: 2.9rem;
-    left: 19.15rem;
+    margin-left: 32rem;
+    margin-top: 3rem;
+    position: relative;
 }
 
 #divide {
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 0.3125rem; /* 5px를 rem으로 변환한 값 */
+    margin-right: 0.3125rem; /* 5px를 rem으로 변환한 값 */
 }
 
 .section1 {
     position: absolute;
-    top: 4.7rem;
-    left: 15.8rem;
+    top: 4.7rem; /* 75.2px를 rem으로 변환한 값 */
+    left: 28rem; /* 252.8px를 rem으로 변환한 값 */
     background-color: #ffffff;
-    width: 18.2rem;
-    height: 37.125rem;
+    width: 18.2rem; /* 291.2px를 rem으로 변환한 값 */
+    height: 37.125rem; /* 595.2px를 rem으로 변환한 값 */
     border-radius: 15px;
-}  
+}
 
 #image1 {
-    width: 14.8rem;
-    height: 9.5rem;
-    margin-left: 9.5px;
-    margin-top: 10px;
-    border-radius: 8px;
-} 
+    width: 14.8rem; /* 236.8px를 rem으로 변환한 값 */
+    height: 9.5rem; /* 152px를 rem으로 변환한 값 */
+    margin-left: 0.59375rem; /* 9.5px를 rem으로 변환한 값 */
+    margin-top: 0.625rem; /* 10px를 rem으로 변환한 값 */
+    border-radius: 8px; /* 8px 그대로 유지 */
+}
 
 .name {
     position: absolute;
-    top:1.01rem;
-    left: 1.16rem;
+    top: 1.01rem; /* 16.16px를 rem으로 변환한 값 */
+    left: 1.16rem; /* 18.56px를 rem으로 변환한 값 */
     background-color: #FFEDFA;
-    width: 16rem;   
-    height: 2.2rem;
+    width: 16rem; /* 256px를 rem으로 변환한 값 */
+    height: 2.2rem; /* 35.2px를 rem으로 변환한 값 */
     border-radius: 11px;
     border: 1px solid #FEF1F1;
-    
 }
 
 #named {
     position: absolute;
-    top:0.6rem;
-    left: 6.8rem;
+    top: 0.6rem; /* 9.6px를 rem으로 변환한 값 */
+    left: 6.8rem; /* 108.8px를 rem으로 변환한 값 */
 }
 
 .mainImage {
     position: absolute;
-    top:4rem;
-    left: 1.16rem;
+    top: 4rem; /* 64px를 rem으로 변환한 값 */
+    left: 1.16rem; /* 18.56px를 rem으로 변환한 값 */
     background-color: #FFEDFA;
-    width: 16rem;
-    height: 10.9rem;
+    width: 16rem; /* 256px를 rem으로 변환한 값 */
+    height: 10.9rem; /* 174.4px를 rem으로 변환한 값 */
     border-radius: 11px;
     border: 1px solid #FEF1F1;
-}   
+}
 
 #notice {
     position: absolute;
-    top: 18.3rem;
-    left:2.5rem;
-    font-size: 15px;
+    top: 18.3rem; /* 292.8px를 rem으로 변환한 값 */
+    left: 2.5rem; /* 40px를 rem으로 변환한 값 */
+    font-size: 15px; /* 그대로 유지 */
 }
 
-.friends {  
+.friends {
     position: absolute;
-    top: 23rem;
-    left: 1.16rem;
-    width: 16rem;
-    height: 2.2rem;
+    top: 23rem; /* 368px를 rem으로 변환한 값 */
+    left: 1.16rem; /* 18.56px를 rem으로 변환한 값 */
+    width: 16rem; /* 256px를 rem으로 변환한 값 */
+    height: 2.2rem; /* 35.2px를 rem으로 변환한 값 */
     background-color: #FFEDFA;
-    border-radius:11px;
+    border-radius: 11px;
     border: 1px solid #FEF1F1;
 }
 
 #friend {
     position: absolute;
-    top: 0.5rem;
-    left: 5.8rem;
+    top: 0.5rem; /* 8px를 rem으로 변환한 값 */
+    left: 5.8rem; /* 92.8px를 rem으로 변환한 값 */
 }
 
-.friending img {
-    
-}
 
-#friend1,#friend2,#friend3, #friend4, #friend5, #friend6 {
-    width: 4.5rem;
-    height: 4.5rem;
-    border-radius: 5px;
+#friend1, #friend2, #friend3, #friend4, #friend5, #friend6 {
+    width: 4.5rem; /* 72px를 rem으로 변환한 값 */
+    height: 4.5rem; /* 72px를 rem으로 변환한 값 */
+    border-radius: 5px; /* 5px 그대로 유지 */
     position: absolute;
 }
 
-#friend1{
-    top: 3rem;
-    left: 0.7rem;
+#friend1 {
+    top: 3rem; /* 48px를 rem으로 변환한 값 */
+    left: 0.7rem; /* 11.2px를 rem으로 변환한 값 */
 }
 
 #friend2 {
-    top: 3rem;
-    left: 5.7em;
+    top: 3rem; /* 48px를 rem으로 변환한 값 */
+    left: 5.7rem; /* 91.2px를 rem으로 변환한 값 */
 }
 
 #friend3 {
-    top: 3rem;
-    left: 10.7rem;
+    top: 3rem; /* 48px를 rem으로 변환한 값 */
+    left: 10.7rem; /* 171.2px를 rem으로 변환한 값 */
 }
 
 #friend4 {
-    top: 8rem;
-    left: 0.7rem;
+    top: 8rem; /* 128px를 rem으로 변환한 값 */
+    left: 0.7rem; /* 11.2px를 rem으로 변환한 값 */
 }
 
 #friend5 {
-    top: 8rem;
-    left: 5.7rem;
+    top: 8rem; /* 128px를 rem으로 변환한 값 */
+    left: 5.7rem; /* 91.2px를 rem으로 변환한 값 */
 }
 
 #friend6 {
-    top: 8rem;
-    left: 10.7rem;
+    top: 8rem; /* 128px를 rem으로 변환한 값 */
+    left: 10.7rem; /* 171.2px를 rem으로 변환한 값 */
 }
 
 .section2 {
     position: absolute;
-    top: 4.7rem;
-    left: 35rem;
+    top: 4.7rem; /* 75.2px를 rem으로 변환한 값 */
+    left: 47rem; /* 560px를 rem으로 변환한 값 */
     background-color: #ffffff;
-    width: 43.5625rem;
-    height: 37.125rem;
+    width: 43.5625rem; /* 697.6px를 rem으로 변환한 값 */
+    height: 37.125rem; /* 595.2px를 rem으로 변환한 값 */
     border-radius: 15px;
 }
 
-
 li {
     list-style: none;
-    border-radius: 10px;
+    border-radius: 10px; /* 10px 그대로 유지 */
     text-align: center;
     justify-content: center;
     color: inherit;
-    width: 4.7rem;
-    height: 2.6rem;
-    font-size: 14px;
+    width: 4.7rem; /* 75.2px를 rem으로 변환한 값 */
+    height: 2.6rem; /* 41.6px를 rem으로 변환한 값 */
+    font-size: 14px; /* 그대로 유지 */
 }
 
 a {
@@ -184,23 +187,22 @@ a {
 
 #home {
     position: absolute;
-    top:3.5rem;
-    left:41.3rem;
+    top: 3.5rem; /* 56px를 rem으로 변환한 값 */
+    left: 41.3rem; /* 660.8px를 rem으로 변환한 값 */
     background-color: #FFB5E6;
     flex-shrink: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 #profile {
     position: absolute;
-    top:6.8rem;
-    left:41.3rem;
+    top: 6.8rem; /* 108.8px를 rem으로 변환한 값 */
+    left: 41.3rem; /* 660.8px를 rem으로 변환한 값 */
     background-color: #FFB5E6;
     flex-shrink: 0;
-    border-radius: 10px;
+    border-radius: 10px; /* 10px 그대로 유지 */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -208,8 +210,8 @@ a {
 
 #noticeBoard {
     position: absolute;
-    top:10.1rem;
-    left:41.3rem;
+    top: 10.1rem; /* 161.6px를 rem으로 변환한 값 */
+    left: 41.3rem; /* 660.8px를 rem으로 변환한 값 */
     background-color: #FFB5E6;
     flex-shrink: 0;
     display: flex;
@@ -219,8 +221,8 @@ a {
 
 #guestBook {
     position: absolute;
-    top:13.4rem;
-    left:41.3rem;
+    top: 13.4rem; /* 214.4px를 rem으로 변환한 값 */
+    left: 41.3rem; /* 660.8px를 rem으로 변환한 값 */
     background-color: #FFB5E6;
     flex-shrink: 0;
     display: flex;
@@ -230,8 +232,8 @@ a {
 
 #game {
     position: absolute;
-    top:16.7rem;
-    left:41.3rem;
+    top: 16.7rem; /* 267.2px를 rem으로 변환한 값 */
+    left: 41.3rem; /* 660.8px를 rem으로 변환한 값 */
     background-color: #FFB5E6;
     flex-shrink: 0;
     display: flex;

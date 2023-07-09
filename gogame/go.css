@@ -10,7 +10,11 @@ body {
     font-family: 'Noto Sans KR', sans-serif;
 }
 
+
+
 .gogame {
+    margin-top: 10rem;
+    margin-left: 51rem;
     display: inline-flex;
 padding: 13px 88px 14px 88px;
 justify-content: center;
@@ -18,14 +22,26 @@ align-items: center;
 border-radius: 10px;
 background: #FFF;
 box-shadow: 0px 0px 30px 4px rgba(100, 100, 100, 0.10);
+color: #000;
+font-family: Inter;
+font-size: 1.5rem;
+}
+
+.box > div {
+    margin: 0 3rem;
 }
 
 .box {
-    margin-top: 12.5rem;
+    margin-top: 7rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+a {
+    text-decoration: none;
+    color: inherit;
+}   
 
 .popcat {
     width: 20.8125rem;
@@ -43,6 +59,10 @@ font-size: 2rem;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+margin-top: 1.3rem;
+display: flex;
+text-align: center;
+justify-content: center;
 }
 
 .poptext {
@@ -51,15 +71,19 @@ font-size: 1rem;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+display: flex;
+text-align: center;
+justify-content: center;
 }
 
 .popcatIcon {
-    display: flex;
-width: 10.625rem;
-height: 10.625rem;
-justify-content: center;
+width: 10.3rem;
+height: 10.3rem;
+display: flex;
 align-items: center;
-flex-shrink: 0;
+justify-content: center;
+margin-left: 5.35rem;
+margin-top: 0;
 }
 
 .popPlus {
@@ -70,6 +94,12 @@ justify-content: center;
 align-items: center;
 border-radius: 0.625rem;
 background: var(--unnamed, #FFB5E6);
+margin-left: 3.4rem;
+color: #FFF;
+font-size: 1rem;
+border-style: none;
+margin-top: 0.5rem;
+
 }
 
 .apple {
@@ -79,6 +109,57 @@ background: var(--unnamed, #FFB5E6);
 border-radius: 30px;
 background: #FFF;
 box-shadow: 0px 0px 30px 4px rgba(100, 100, 100, 0.10);
+}
+
+.apple1 {
+    color: #000;
+    font-family: Inter;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 1.3rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.appletext {
+    color: #3A3A3A;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.appleIcon {
+    width: 10.3rem;
+    height: 10.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5.3rem;
+    margin-top: 0;
+}
+
+.applePlus {
+    display: flex;
+    width: 14.125rem;
+    padding: 0.8125rem 4.75rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.625rem;
+    background: var(--unnamed, #FFB5E6);
+    margin-left: 3.4rem;
+    color: #FFF;
+    font-size: 1rem;
+    border-style: none;
+    margin-top: 0.5rem;
 }
 
 
@@ -91,3 +172,54 @@ border-radius: 30px;
 background: #FFF;
 box-shadow: 0px 0px 30px 4px rgba(100, 100, 100, 0.10);
 }
+
+.word1 {
+    color: #000;
+    font-family: Inter;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 1.3rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.wordtext {
+    color: #3A3A3A;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.wordIcon {
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5.4rem;
+    margin-top: 0;
+}
+
+.wordPlus {
+    display: flex;
+    width: 14.125rem;
+    padding: 0.8125rem 4.75rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.625rem;
+    background: var(--unnamed, #FFB5E6);
+    margin-left: 3.4rem;
+    color: #FFF;
+    font-size: 1rem;
+    border-style: none;
+    margin-top: 0.7rem;
+}
+
+
