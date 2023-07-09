@@ -5,14 +5,18 @@
     font-style: normal;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+
+
+
 * {
     margin: 0;
     padding: 0;
-    font-family: 'NeoDunggeunmo';
+    
 }
 
 body {
-    background-image: url('https://i.pinimg.com/564x/78/0e/cd/780ecdace24a24a3df306ad0e2423e7f.jpg');
+    background-color: #ffbeed;
     background-size: cover;
     z-index: -1;
     width: 100%;
@@ -24,6 +28,7 @@ body {
 .all {
     position: absolute;
     top: 6rem;
+    
 }
 
 
@@ -41,9 +46,10 @@ body {
 }
 
 .date {
-    margin-left: 32rem;
+    margin-left: 31.3rem;
     margin-top: 3rem;
     position: relative;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 #divide {
@@ -78,12 +84,13 @@ body {
     height: 2.2rem; /* 35.2px를 rem으로 변환한 값 */
     border-radius: 11px;
     border: 1px solid #FEF1F1;
+    font-family: 'NeoDunggeunmo';
 }
 
 #named {
     position: absolute;
     top: 0.6rem; /* 9.6px를 rem으로 변환한 값 */
-    left: 6.8rem; /* 108.8px를 rem으로 변환한 값 */
+    left: 6.6rem; /* 108.8px를 rem으로 변환한 값 */
 }
 
 .mainImage {
@@ -102,6 +109,7 @@ body {
     top: 18.3rem; /* 292.8px를 rem으로 변환한 값 */
     left: 2.5rem; /* 40px를 rem으로 변환한 값 */
     font-size: 15px; /* 그대로 유지 */
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 .friends {
@@ -118,7 +126,8 @@ body {
 #friend {
     position: absolute;
     top: 0.5rem; /* 8px를 rem으로 변환한 값 */
-    left: 5.8rem; /* 92.8px를 rem으로 변환한 값 */
+    left: 5.7rem; /* 92.8px를 rem으로 변환한 값 */
+    font-family: 'NeoDunggeunmo';
 }
 
 
@@ -178,6 +187,7 @@ li {
     width: 4.7rem; /* 75.2px를 rem으로 변환한 값 */
     height: 2.6rem; /* 41.6px를 rem으로 변환한 값 */
     font-size: 14px; /* 그대로 유지 */
+    font-family: 'NeoDunggeunmo';
 }
 
 a {
@@ -189,7 +199,7 @@ a {
     position: absolute;
     top: 3.5rem; /* 56px를 rem으로 변환한 값 */
     left: 41.3rem; /* 660.8px를 rem으로 변환한 값 */
-    background-color: #FFB5E6;
+    background-color: #F5F5F5;
     flex-shrink: 0;
     display: flex;
     align-items: center;
@@ -247,4 +257,5 @@ a {
 #guestBook:hover,
 #game:hover {
     background-color: #F5F5F5;
+    
 }
