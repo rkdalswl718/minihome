@@ -190,6 +190,11 @@ body {
     font-family: 'Noto Sans KR', sans-serif;
 }
 
+#announcements {
+    margin-left: 2.1rem;   
+    margin-top: 1rem; 
+}
+
 hr {
     width: 91%;
     margin-left: 0.1rem;
