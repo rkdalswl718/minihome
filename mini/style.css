@@ -190,9 +190,24 @@ body {
     font-family: 'Noto Sans KR', sans-serif;
 }
 
-#announcements {
-    margin-left: 2.1rem;   
+#announcements1 {
+    margin-left: 2rem;   
     margin-top: 1rem; 
+}
+
+#announcements2 {
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+}
+
+.write {
+    margin-top: 1rem;
+    margin-left: 2rem;
+
+}
+
+.write > h5 {
+    margin-top: 0.4rem;
 }
 
 hr {
