@@ -178,6 +178,25 @@ body {
     border-radius: 15px;
 }
 
+#announcement {
+    margin-left: 1.8rem;
+    margin-top: 1.3rem;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+#writinglist {
+    margin-left: 1.8rem;
+    margin-top: 1.3rem;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+hr {
+    width: 91%;
+    margin-left: 0.1rem;
+    margin-top: 0.5rem;
+    
+}
+
 li {
     list-style: none;
     border-radius: 10px; /* 10px 그대로 유지 */
