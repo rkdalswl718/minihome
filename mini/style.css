@@ -173,9 +173,13 @@ li {
     height: 3vh;
     font-size: 14px; 
     font-family: 'NeoDunggeunmo';
-    width: 10vh;
-    height: 5vh;
+    width: 11vh;
+    height: 6vh;
     background-color: #FFB5E6;
     margin-top: 2vh;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
