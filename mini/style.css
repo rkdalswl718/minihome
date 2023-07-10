@@ -27,20 +27,24 @@ body {
     height: 85vh;
     background-color: rgb(255, 255, 255, 0.7);
     border-radius: 1rem;
-
+    display: flex;
 }
 
 .date {
-    margin-left: 5vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .section1 {
     background-color: #fff;
     width: 20vw;
     height: 75vh;
-    margin-left: 2vw;
-    margin-top: 1.5vw;
+    margin-top: 2vh;
+    margin-left:3vw;
     border-radius: 1rem;
+
+
 }
 
 .name {
@@ -51,17 +55,25 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 2vw;
+    
+}
+
+.mainImage {
+    background-color: rgba(255, 237, 250, 1);
+    width: 16vw;
+    height: 20vh;
+}
+
+#image1 {
+    width: 18vw;
+    height: 20vh;
 }
 
 .section2 {
     background-color: #fff;
     width: 40vw;
     height: 75vh;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-
+    border-radius: 1rem;
 }
 
 
