@@ -25,7 +25,7 @@ body {
 
 .background1 {
     width: 70vw;
-    height: 85vh;
+    height: 90vh;
     background-color: rgb(255, 255, 255, 0.7);
     border-radius: 1rem;
     display: flex;
@@ -36,7 +36,7 @@ h4 {
     display: flex;
     justify-content: center;
     margin-left: 3vw;
-    margin-top: 0.6vh;
+    margin-top: 2.3vh;
 }
 
 #divide {
@@ -47,8 +47,8 @@ h4 {
 .section1 {
     background-color: #fff;
     width: 20vw;
-    height: 75vh;
-    margin-top: 2vh;
+    height: 80vh;
+    margin-top: 1.7vh;
     margin-left:2.5vw;
     border-radius: 1rem;
 
@@ -91,23 +91,13 @@ h4 {
     border-radius: 0.4rem;
 }
 
-.section2 {
-    background-color: #fff;
-    width: 40vw;
-    height: 75vh;
-    border-radius: 1rem;
-    margin-top: 4.5vh;
-    margin-left: 1.5vw;
-    
-}
-
 #notice {
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: Inter;
     font-size: 15px;
-    margin-top: 7vh;
+    margin-top: 7.5vh;
 }
 
 #friend {
@@ -119,24 +109,39 @@ h4 {
     align-items: center;
     justify-content: center;
     margin-left: 1.25vw;
-    margin-top: 7vh;
+    margin-top: 8vh;
 }
 
 .friending {
-    margin-left: 2vw;
-    margin-top: 1vh;
-}
-
+    display: flex;
+    flex-wrap: wrap; /* 이미지를 여러 줄로 나누기 위해 필요한 속성 */
+    align-items: center;
+    justify-content: center; /* 가로 정렬을 위해 필요한 속성 */
+    margin-top: 1.5vh;
+  }
+  
 .friending1 > img {
     border-radius: 0.3rem;
-    width: 4.5vw;
-    height: 9vh;
-    margin: 0 0.5vw;
+    width: 5vw;
+    height: 10vh;
+    margin: 0 0.1vw;
+    margin-bottom: 0.5vh;
 }
 
 .friending2 > img {
     border-radius: 0.3rem;
-    width: 4.5vw;
-    height: 9vh;
+    width: 5vw;
+    height: 10vh;
+    margin: 0 0.1vw;
 }
 
+
+.section2 {
+    background-color: #fff;
+    width: 40vw;
+    height: 80vh;
+    border-radius: 1rem;
+    margin-top: 6vh;
+    margin-left: 1.5vw;
+    
+}
