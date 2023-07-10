@@ -138,10 +138,44 @@ h4 {
 
 .section2 {
     background-color: #fff;
-    width: 40vw;
+    width: 42vw;
     height: 80vh;
     border-radius: 1rem;
     margin-top: 6vh;
     margin-left: 1.5vw;
     
 }
+
+hr {
+    width: 91%;
+    height: 0;
+    margin-left: 0.1rem;
+    margin-top: 0.5rem;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    margin-bottom: 15vh;
+}
+
+li {
+    border-radius: 10px;
+    flex-direction: column;
+    margin-left: 75vh;
+    list-style: none;
+    color: inherit;
+    width: 5vh;
+    height: 3vh;
+    font-size: 14px; 
+    font-family: 'NeoDunggeunmo';
+    width: 10vh;
+    height: 5vh;
+    background-color: #FFB5E6;
+    margin-top: 2vh;
+}
+
