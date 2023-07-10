@@ -35,8 +35,16 @@ h4 {
 }
 
 #divide {
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 0.8vw;
+    margin-right: 0.8vw;
+}
+
+#today {
+    margin-left: 0.25vw;
+}
+
+#total {
+    margin-left: 0.5vw;
 }
 
 .section1 {
