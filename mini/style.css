@@ -30,10 +30,18 @@ body {
     display: flex;
 }
 
-.date {
+h4 {
     text-align: center;
     display: flex;
     justify-content: center;
+    margin-left: 4vw;
+    margin-top: 0.5vh;
+    
+}
+
+#divide {
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .section1 {
@@ -47,26 +55,41 @@ body {
 
 }
 
+.name1 {
+    display: flex;
+}
+
 .name {
     background-color: rgba(255, 237, 250, 1);
-    width: 16vw;
-    height: 4vh;
+    width: 17vw;
+    height: 4.7vh;
     border-radius: 0.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    margin-left: 1.5vw;
+        margin-top: 2vh;
+        font-family: 'Noto Sans KR', sans-serif;
 }
 
 .mainImage {
     background-color: rgba(255, 237, 250, 1);
-    width: 16vw;
-    height: 20vh;
+    width:17vw;
+    height: 23vh;
+    border-radius: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 1.4vh;
+    margin-left: 1.5vw;
+
 }
 
 #image1 {
-    width: 18vw;
+    width: 15.5vw;
     height: 20vh;
+    border-radius: 0.5rem;
+    
 }
 
 .section2 {
