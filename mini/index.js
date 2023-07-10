@@ -1,7 +1,7 @@
 const totalDisplay = document.getElementById("total");
 const todayDisplay = document.getElementById("today");
 let today = localStorage.getItem('today') || 1;
-
+let total = localStorage.getItem('total') || 6432;
 const currentDate = new Date();
 const lastResetDate = localStorage.getItem('lastResetDate');
 const resetTime = 0;
@@ -19,6 +19,8 @@ const increaseToday = () => {
 
 const increaseTotal = () => {
   total++;
+  totalDisplay.innerText = total;
+  localStorage.setItem('total',total);
 }
 
 
@@ -29,3 +31,4 @@ window.addEventListener('DOMContentLoaded', () => {
 
 
   increaseToday();
+  increaseTotal();
