@@ -1,300 +1,72 @@
 @font-face {
-    font-family: 'NeoDunggeunmo';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.3/NeoDunggeunmo.woff') format('woff');
+    font-family: "NeoDunggeunmo";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.3/NeoDunggeunmo.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap");
 
 * {
     margin: 0;
     padding: 0;
-    
 }
 
 body {
-    background-image: url('https://i.pinimg.com/564x/78/0e/cd/780ecdace24a24a3df306ad0e2423e7f.jpg');
+    background-image: url("https://i.pinimg.com/564x/78/0e/cd/780ecdace24a24a3df306ad0e2423e7f.jpg");
     background-size: cover;
-    z-index: -1;
-    width: 100%;
-    height: 100%;
-    position: relative;
-    
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-.all {
-    position: absolute;
-    top: 6rem;
-    
-}
-
 
 .background1 {
-    top: 2rem;
-    left: 26rem;
-    position: absolute;
-    background-color: rgba(249, 249, 249, 0.7);
-    width: 68.8125rem;
-    height: 42.3625rem; 
-    display: flex;
-    align-items: center;
-    justify-content: center;/* 30px를 rem으로 변환한 값 */
-    border-radius: 15px;
+    width: 70vw;
+    height: 85vh;
+    background-color: rgb(255, 255, 255, 0.7);
+    border-radius: 1rem;
+
 }
 
 .date {
-    margin-left: 31.3rem;
-    margin-top: 3rem;
-    position: relative;
-    font-family: 'Noto Sans KR', sans-serif;
-}
-
-#divide {
-    margin-left: 0.3125rem; /* 5px를 rem으로 변환한 값 */
-    margin-right: 0.3125rem; /* 5px를 rem으로 변환한 값 */
+    margin-left: 5vw;
 }
 
 .section1 {
-    position: absolute;
-    top: 4.7rem; /* 75.2px를 rem으로 변환한 값 */
-    left: 28rem; /* 252.8px를 rem으로 변환한 값 */
-    background-color: #ffffff;
-    width: 18.2rem; /* 291.2px를 rem으로 변환한 값 */
-    height: 37.125rem; /* 595.2px를 rem으로 변환한 값 */
-    border-radius: 15px;
-}
-
-#image1 {
-    width: 14.8rem; /* 236.8px를 rem으로 변환한 값 */
-    height: 9.5rem; /* 152px를 rem으로 변환한 값 */
-    margin-left: 0.59375rem; /* 9.5px를 rem으로 변환한 값 */
-    margin-top: 0.625rem; /* 10px를 rem으로 변환한 값 */
-    border-radius: 8px; /* 8px 그대로 유지 */
+    background-color: #fff;
+    width: 20vw;
+    height: 75vh;
+    margin-left: 2vw;
+    margin-top: 1.5vw;
+    border-radius: 1rem;
 }
 
 .name {
-    position: absolute;
-    top: 1.01rem; /* 16.16px를 rem으로 변환한 값 */
-    left: 1.16rem; /* 18.56px를 rem으로 변환한 값 */
-    background-color: #FFEDFA;
-    width: 16rem; /* 256px를 rem으로 변환한 값 */
-    height: 2.2rem; /* 35.2px를 rem으로 변환한 값 */
-    border-radius: 11px;
-    border: 1px solid #FEF1F1;
-    font-family: 'NeoDunggeunmo';
-}
-
-#named {
-    position: absolute;
-    top: 0.6rem; /* 9.6px를 rem으로 변환한 값 */
-    left: 6.6rem; /* 108.8px를 rem으로 변환한 값 */
-}
-
-.mainImage {
-    position: absolute;
-    top: 4rem; /* 64px를 rem으로 변환한 값 */
-    left: 1.16rem; /* 18.56px를 rem으로 변환한 값 */
-    background-color: #FFEDFA;
-    width: 16rem; /* 256px를 rem으로 변환한 값 */
-    height: 10.9rem; /* 174.4px를 rem으로 변환한 값 */
-    border-radius: 11px;
-    border: 1px solid #FEF1F1;
-}
-
-#notice {
-    position: absolute;
-    top: 18.3rem; /* 292.8px를 rem으로 변환한 값 */
-    left: 2.5rem; /* 40px를 rem으로 변환한 값 */
-    font-size: 15px; /* 그대로 유지 */
-    font-family: 'Noto Sans KR', sans-serif;
-}
-
-.friends {
-    position: absolute;
-    top: 23rem; /* 368px를 rem으로 변환한 값 */
-    left: 1.16rem; /* 18.56px를 rem으로 변환한 값 */
-    width: 16rem; /* 256px를 rem으로 변환한 값 */
-    height: 2.2rem; /* 35.2px를 rem으로 변환한 값 */
-    background-color: #FFEDFA;
-    border-radius: 11px;
-    border: 1px solid #FEF1F1;
-}
-
-#friend {
-    position: absolute;
-    top: 0.5rem; /* 8px를 rem으로 변환한 값 */
-    left: 5.7rem; /* 92.8px를 rem으로 변환한 값 */
-    font-family: 'NeoDunggeunmo';
-}
-
-
-#friend1, #friend2, #friend3, #friend4, #friend5, #friend6 {
-    width: 4.5rem; /* 72px를 rem으로 변환한 값 */
-    height: 4.5rem; /* 72px를 rem으로 변환한 값 */
-    border-radius: 5px; /* 5px 그대로 유지 */
-    position: absolute;
-}
-
-#friend1 {
-    top: 3rem; /* 48px를 rem으로 변환한 값 */
-    left: 0.7rem; /* 11.2px를 rem으로 변환한 값 */
-}
-
-#friend2 {
-    top: 3rem; /* 48px를 rem으로 변환한 값 */
-    left: 5.7rem; /* 91.2px를 rem으로 변환한 값 */
-}
-
-#friend3 {
-    top: 3rem; /* 48px를 rem으로 변환한 값 */
-    left: 10.7rem; /* 171.2px를 rem으로 변환한 값 */
-}
-
-#friend4 {
-    top: 8rem; /* 128px를 rem으로 변환한 값 */
-    left: 0.7rem; /* 11.2px를 rem으로 변환한 값 */
-}
-
-#friend5 {
-    top: 8rem; /* 128px를 rem으로 변환한 값 */
-    left: 5.7rem; /* 91.2px를 rem으로 변환한 값 */
-}
-
-#friend6 {
-    top: 8rem; /* 128px를 rem으로 변환한 값 */
-    left: 10.7rem; /* 171.2px를 rem으로 변환한 값 */
+    background-color: rgba(255, 237, 250, 1);
+    width: 16vw;
+    height: 4vh;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2vw;
 }
 
 .section2 {
-    position: absolute;
-    top: 4.7rem; /* 75.2px를 rem으로 변환한 값 */
-    left: 47rem; /* 560px를 rem으로 변환한 값 */
-    background-color: #ffffff;
-    width: 43.5625rem; /* 697.6px를 rem으로 변환한 값 */
-    height: 37.125rem; /* 595.2px를 rem으로 변환한 값 */
-    border-radius: 15px;
-}
-
-#announcement {
-    margin-left: 1.8rem;
-    margin-top: 1.3rem;
-    font-family: 'Noto Sans KR', sans-serif;
-}
-
-#writinglist {
-    margin-left: 1.8rem;
-    margin-top: 1.3rem;
-    font-family: 'Noto Sans KR', sans-serif;
-}
-
-#announcements1 {
-    margin-left: 2rem;   
-    margin-top: 1rem; 
-}
-
-#announcements2 {
-    margin-top: 0.5rem;
-    margin-left: 2rem;
-}
-
-.write {
-    margin-top: 1rem;
-    margin-left: 2rem;
-
-}
-
-.write > h5 {
-    margin-top: 0.4rem;
-}
-
-hr {
-    width: 91%;
-    margin-left: 0.1rem;
-    margin-top: 0.5rem;
-    
-}
-
-li {
-    list-style: none;
-    border-radius: 10px; /* 10px 그대로 유지 */
-    text-align: center;
-    justify-content: center;
-    color: inherit;
-    width: 4.7rem; /* 75.2px를 rem으로 변환한 값 */
-    height: 2.6rem; /* 41.6px를 rem으로 변환한 값 */
-    font-size: 14px; /* 그대로 유지 */
-    font-family: 'NeoDunggeunmo';
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-#home {
-    position: absolute;
-    top: 3.5rem; /* 56px를 rem으로 변환한 값 */
-    left: 41.3rem; /* 660.8px를 rem으로 변환한 값 */
-    background-color: #F5F5F5;
-    flex-shrink: 0;
+    background-color: #fff;
+    width: 40vw;
+    height: 75vh;
     display: flex;
+    justify-content: end;
     align-items: center;
-    justify-content: center;
+
 }
 
-#profile {
-    position: absolute;
-    top: 6.8rem; /* 108.8px를 rem으로 변환한 값 */
-    left: 41.3rem; /* 660.8px를 rem으로 변환한 값 */
-    background-color: #FFB5E6;
-    flex-shrink: 0;
-    border-radius: 10px; /* 10px 그대로 유지 */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-#noticeBoard {
-    position: absolute;
-    top: 10.1rem; /* 161.6px를 rem으로 변환한 값 */
-    left: 41.3rem; /* 660.8px를 rem으로 변환한 값 */
-    background-color: #FFB5E6;
-    flex-shrink: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#guestBook {
-    position: absolute;
-    top: 13.4rem; /* 214.4px를 rem으로 변환한 값 */
-    left: 41.3rem; /* 660.8px를 rem으로 변환한 값 */
-    background-color: #FFB5E6;
-    flex-shrink: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#game {
-    position: absolute;
-    top: 16.7rem; /* 267.2px를 rem으로 변환한 값 */
-    left: 41.3rem; /* 660.8px를 rem으로 변환한 값 */
-    background-color: #FFB5E6;
-    flex-shrink: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#home:hover,
-#profile:hover,
-#noticeBoard:hover,
-#guestBook:hover,
-#game:hover {
-    background-color: #F5F5F5;
-    
+.friending {
+    border-radius: 0.3125rem;
+    width: 5vw;
+    height: 5vh;
 }
