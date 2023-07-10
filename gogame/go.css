@@ -3,36 +3,44 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 body {
     background-color: #FFEDFA;
-    font-family: 'Noto Sans KR', sans-serif;
+    width: 100%;
+
 }
 
-
-
-.gogame {
-    margin-top: 10rem;
-    margin-left: 51rem;
-    display: inline-flex;
-padding: 13px 88px 14px 88px;
-justify-content: center;
-align-items: center;
-border-radius: 10px;
-background: #FFF;
-box-shadow: 0px 0px 30px 4px rgba(100, 100, 100, 0.10);
-color: #000;
-font-family: Inter;
-font-size: 1.5rem;
+.all {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
 }
+
+.minibox {
+    width: 20vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 13vh;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 0px 30px 4px rgba(100, 100, 100, 0.10);
+    color: #000;
+    font-size: 25px;
+}
+
 
 .box > div {
-    margin: 0 3rem;
+    margin: 0 6vh;
 }
 
 .box {
-    margin-top: 6.5rem;
+    margin-top: 9vh;
     display: flex;
     justify-content: center;
     align-items: center;
