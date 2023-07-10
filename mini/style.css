@@ -98,7 +98,7 @@ h4 {
     border-radius: 1rem;
     margin-top: 4.5vh;
     margin-left: 1.5vw;
-    border-radius: 1rem;
+    
 }
 
 #notice {
@@ -107,11 +107,36 @@ h4 {
     justify-content: center;
     font-family: Inter;
     font-size: 15px;
-    margin-top: 6vh;
+    margin-top: 7vh;
+}
+
+#friend {
+    background-color: rgba(255, 237, 250, 1);
+    width: 17.5vw;
+    height: 4.7vh;
+    border-radius: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1.25vw;
+    margin-top: 7vh;
 }
 
 .friending {
-    border-radius: 0.3125rem;
-    width: 5vw;
-    height: 5vh;
+    margin-left: 2vw;
+    margin-top: 1vh;
 }
+
+.friending1 > img {
+    border-radius: 0.3rem;
+    width: 4.5vw;
+    height: 9vh;
+    margin: 0 0.5vw;
+}
+
+.friending2 > img {
+    border-radius: 0.3rem;
+    width: 4.5vw;
+    height: 9vh;
+}
+
