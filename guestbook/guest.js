@@ -5,6 +5,8 @@ let total = localStorage.getItem('total') || 6432;
 const currentDate = new Date();
 const lastResetDate = localStorage.getItem('lastResetDate');
 const resetTime = 0;
+const chatBox = document.querySelector(".chat");
+const inputForm = document.getElementById('comment-form');
 
 if (!lastResetDate || currentDate.getDate() > parseInt(lastResetDate)) {
   today = 1;
@@ -68,3 +70,8 @@ const commentForm = document.getElementById('comment-form');
             savedComments.push(newComment);
             localStorage.setItem('guestbookComments', JSON.stringify(savedComments));
         });
+
+
+chatBox.addEventListener('click', () =>{
+  inputForm.style.display = 'block';
+})

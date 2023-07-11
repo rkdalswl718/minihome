@@ -153,16 +153,16 @@ h4 {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-bottom: 0.5vh;
 }
 
 .mini2 {
     border-radius: 2vh;
     width:35vw;
-    height:57vh;
+    height:62vh;
     margin-right:2vw;
     background-color:rgba(255, 237, 250, 1);
     margin-bottom: 2vh;
-    margin-top: 1.1vh;
 }
 
 .chat {
@@ -175,7 +175,7 @@ h4 {
 }
 
 .send {
-    margin-top: 4vh;
+    margin-top: 3.9vh;
     margin-left:30.5vw;
     width: 3.7vw;
     height: 4.5vh;
@@ -198,13 +198,16 @@ h1 {
     margin-bottom: 26px;
 }
 
+.mini3 {
+    margin-top:2.5vh;
+}
 
 .comment {
-    margin-left: 0.75vw;
+    margin-left: 1.5vw;
     margin-top:2vh;
     background-color: rgba(255, 255, 255, 0.8);
-    width: 90%;
-    border-radius: 0.8vw;
+    width: 85%;
+    border-radius: 0.9vw;
     padding: 1vw;
     border-radius: 5px;
 
@@ -222,6 +225,11 @@ h1 {
     margin-left: 0.5vw;
     font-size: 0.9vh;
     rgba(105, 105, 105, 1)
+}
+
+#comment-form {
+    width: 35vw;
+    height: 30vh;
 }
 
 .form-input {
