@@ -215,6 +215,10 @@ hr {
 }
 
 
+#home {
+    background-color: rgba(245, 245, 245, 1);
+}
+
 li {
     display: flex;
     align-items: center;
@@ -225,8 +229,6 @@ li {
     width: 11vh;
     height: 6.5vh;
     font-size: 14px; 
-    font-family: 'NeoDunggeunmo';
-
     background-color: #FFB5E6;
     margin-top: 1.3vh;
 }
