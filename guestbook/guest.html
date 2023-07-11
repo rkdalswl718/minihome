@@ -63,13 +63,16 @@
               </div>
               <div class="chatbox">
                   <div class="mini2">
-                      <div id="comment-list"></div> 
+                    <div class="mini3">
+                        <div id="comment-list"></div>
+                    </div>
                   </div>
                   <div class="chat">
+                    <button class="send" type="submit">전송</button> 
                   </div>
 
               </div>
-            <form id="comment-form" method="post">
+            <form id="comment-form" method="post" style="display: none;">
                 <label for="name">닉네임:</label>
                 <input class="form-input" type="text" name="name" id="name" required>
                 <label for="comment">방명록:</label>

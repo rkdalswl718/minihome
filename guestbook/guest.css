@@ -158,9 +158,11 @@ h4 {
 .mini2 {
     border-radius: 2vh;
     width:35vw;
-    height:55vh;
+    height:57vh;
     margin-right:2vw;
     background-color:rgba(255, 237, 250, 1);
+    margin-bottom: 2vh;
+    margin-top: 1.1vh;
 }
 
 .chat {
@@ -172,6 +174,18 @@ h4 {
     
 }
 
+.send {
+    margin-top: 4vh;
+    margin-left:30.5vw;
+    width: 3.7vw;
+    height: 4.5vh;
+    border: none;
+    border-radius: 3vw;
+    background-color: #FFB5E6;
+    color: #000000;
+    font-size: 1vw;
+    cursor: pointer;
+}
 
 
 #guestBook {
@@ -184,13 +198,16 @@ h1 {
     margin-bottom: 26px;
 }
 
+
 .comment {
+    margin-left: 0.75vw;
+    margin-top:2vh;
     background-color: rgba(255, 255, 255, 0.8);
+    width: 90%;
     border-radius: 0.8vw;
-    margin-left: vw;
     padding: 1vw;
     border-radius: 5px;
-    margin-bottom: 1vh;
+
 }
 
 .comment p {
