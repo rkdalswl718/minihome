@@ -61,23 +61,21 @@
                   <li id="game"><a href="http://127.0.0.1:5501/gogame/go.html">미니게임</a></li>
                 </ul>
               </div>
-            <div class="mini2">
-                <div class="box1">
+              <div class="chatbox">
+                  <div class="mini2">
+                      <div id="comment-list"></div> 
+                  </div>
+                  <div class="chat">
+                  </div>
 
-                </div>
-                <div class="box2"></div>
-                <div class="box3"></div>
-            </div>
-            <div class="chat">
-                <div id="comment-list"></div>
-                <form id="comment-form" method="post">
-                    <label for="name">닉네임:</label>
-                    <input class="form-input" type="text" name="name" id="name" required>
-                    <label for="comment">방명록:</label>
-                    <textarea class="form-textarea" name="comment" id="comment" required></textarea>
-                    <button class="form-submit" type="submit">전송</button>
-                </form>
-            </div>
+              </div>
+            <form id="comment-form" method="post">
+                <label for="name">닉네임:</label>
+                <input class="form-input" type="text" name="name" id="name" required>
+                <label for="comment">방명록:</label>
+                <textarea class="form-textarea" name="comment" id="comment" required></textarea>
+                <button class="form-submit" type="submit">전송</button>
+            </form>
             </div>
         </div>
         <audio id="audio" src="./MP_뒹굴뒹굴.mp3" preload="auto"></audio>

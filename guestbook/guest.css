@@ -149,12 +149,27 @@ h4 {
     align-items: center;
 }
 
+.chatbox {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mini2 {
+    border-radius: 2vh;
+    width:35vw;
+    height:55vh;
+    margin-right:2vw;
+    background-color:rgba(255, 237, 250, 1);
+}
+
 .chat {
     border-radius: 2vh;
     width:35vw;
-    height:65vh;
+    height:10vh;
     margin-right:2vw;
     background-color:rgba(255, 237, 250, 1);
+    
 }
 
 
@@ -205,10 +220,9 @@ h1 {
 
 .form-textarea {
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 0.6vw;
     padding: 5px;
-    border: 1px solid #000000;
-    border-radius: 5px;
+    border-style: none;
     width: 100%;
     box-sizing: border-box;
     font-size: 1em;
@@ -217,17 +231,18 @@ h1 {
 }
 
 .form-submit {
-    
+    width: 3.7vw;
+    height: 4.5vh;
     border: none;
-    border-radius: 5vw;
+    border-radius: 3vw;
     background-color: #FFB5E6;
-    color: #fff;
-    font-size: 1em;
+    color: #000000;
+    font-size: 1vw;
     cursor: pointer;
 }
 
 .form-submit:hover {
-    background: rgb(45, 45, 45);
+    background: rgba(245, 245, 245, 1);
 }
 
 .menu {
