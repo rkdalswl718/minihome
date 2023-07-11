@@ -163,6 +163,7 @@ h4 {
     margin-right:2vw;
     background-color:rgba(255, 237, 250, 1);
     margin-bottom: 2vh;
+    overflow: auto;
 }
 
 .chat {
@@ -229,30 +230,34 @@ h1 {
 }
 
 #comment-form {
-    width: 35vw;
-    height: 60vh;
+    width: 31vw;
+    height: 30vh;
     z-index: 1;
     position: absolute;
     button:0;
-    margin-top: 10vh;
+    margin-top: 34vh;
     background-color: rgba(255, 237, 250, 1);
-    border-
+    border-radius: 0.5vw;
+    margin-right: 2vw;
+    padding: 2vw;
 }
 
 .form-input {
     display: block;
     margin-bottom: 20px;
     padding: 5px;
-    border-radius: 5px;
+    border-radius: 0.5vw;
     width: 100%;
     box-sizing: border-box;
-    font-size: 1em;
+    font-size: 16px;
+    border-style: none;
 }
 
 .form-textarea {
     display: block;
     margin-bottom: 0.6vw;
     padding: 5px;
+    border-radius: 0.5vw;
     border-style: none;
     width: 100%;
     box-sizing: border-box;

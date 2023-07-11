@@ -72,10 +72,8 @@
                     </div>
                 </div>
                 <form id="comment-form" method="post" style="display: none;">
-                    <label for="name">닉네임:</label>
-                    <input class="form-input" type="text" name="name" id="name" required>
-                    <label for="comment">방명록:</label>
-                    <textarea class="form-textarea" name="comment" id="comment" required></textarea>
+                    <input class="form-input" type="text" name="name" id="name" required autocomplete="off" placeholder="닉네임">
+                    <textarea class="form-textarea" name="comment" id="comment" required autocomplete="off" placeholder="내용을 입력하세요."></textarea>
                     <button class="form-submit" type="submit">전송</button>
                 </form>
                 </div>
