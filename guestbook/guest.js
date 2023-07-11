@@ -43,3 +43,28 @@ if (!lastResetDate || currentDate.getDate() > parseInt(lastResetDate)) {
 }
 
 increaseTotal();
+
+
+const commentForm = document.getElementById('comment-form');
+        const commentList = document.getElementById('comment-list');
+
+        // 이전에 저장된 방명록 로드
+        const savedComments = JSON.parse(localStorage.getItem('guestbookComments')) || [];
+        commentList.innerHTML = savedComments.join('');
+        // 배열의 모든 요소를 하나의 문자열로 결합, 그 결과를 commentList 내용으로 설정하는 역할
+
+        commentForm.addEventListener('submit', function (e) {
+            e.preventDefault();
+            const { name, comment } = e.target.elements;
+            const timestamp = new Date().toLocaleString();
+            const newComment = `<div class="comment"><p>
+            <span class="name">${name.value}</span>
+            <span class="timestamp">${timestamp}</span></p>
+            <p>${comment.value}</p></div>`;
+            commentList.insertAdjacentHTML('beforeend', newComment);
+            e.target.reset();
+
+            // 새로운 방명록을 로컬 스토리지에 저장
+            savedComments.push(newComment);
+            localStorage.setItem('guestbookComments', JSON.stringify(savedComments));
+        });

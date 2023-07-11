@@ -60,7 +60,7 @@ h4 {
     display: flex;
 }
 
-.name {
+.name3 {
     background-color: rgba(255, 237, 250, 1);
     width: 17.5vw;
     height: 4.7vh;
@@ -152,11 +152,83 @@ h4 {
 .chat {
     border-radius: 2vh;
     width:35vw;
-    height:70vh;
+    height:65vh;
     margin-right:2vw;
     background-color:rgba(255, 237, 250, 1);
 }
 
+
+
+#guestBook {
+    background-color: rgba(245, 245, 245, 1);
+}
+
+h1 {
+    font-size: 25pt;
+    margin-top: 5px;
+    margin-bottom: 26px;
+}
+
+.comment {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 0.8vw;
+    margin-left: vw;
+    padding: 1vw;
+    border-radius: 5px;
+    margin-bottom: 1vh;
+}
+
+.comment p {
+    margin: 0;
+}
+
+.comment .name {
+    font-weight: bold;
+}
+
+.comment .timestamp {
+    margin-left: 0.5vw;
+    font-size: 0.9vh;
+    rgba(105, 105, 105, 1)
+}
+
+.form-input {
+    display: block;
+    margin-bottom: 20px;
+    padding: 5px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+.form-textarea {
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1em;
+    resize: vertical;
+    height: 110px;
+}
+
+.form-submit {
+    
+    border: none;
+    border-radius: 5vw;
+    background-color: #FFB5E6;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.form-submit:hover {
+    background: rgb(45, 45, 45);
+}
 
 .menu {
     display: flex;
@@ -168,11 +240,6 @@ h4 {
     top: 0; 
     margin-top: 16vh;
     margin-left: 42vw;
-}
-
-
-#guestBook {
-    background-color: rgba(245, 245, 245, 1);
 }
 
 li {
