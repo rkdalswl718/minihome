@@ -231,7 +231,7 @@ h1 {
 
 #comment-form {
     width: 31vw;
-    height: 30vh;
+    height: 25vh;
     z-index: 1;
     position: absolute;
     button:0;
@@ -261,9 +261,10 @@ h1 {
     border-style: none;
     width: 100%;
     box-sizing: border-box;
-    font-size: 1em;
+    font-size: 16px;
     resize: vertical;
     height: 110px;
+    resize: none;
 }
 
 .form-submit {
