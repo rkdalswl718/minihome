@@ -1,11 +1,11 @@
 
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap");
+
 
 * {
     margin: 0;
     padding: 0;
-    font-family: "NeoDunggeunmo";
 }
 
 body {
@@ -16,6 +16,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Inter', sans-serif;
 }
 
 .background1 {
@@ -127,7 +128,7 @@ h4 {
     border-radius: 0.3rem;
     width: 5vw;
     height: 10vh;
-    margin: 0 0.1vw;
+    margin: 0 0.15vw;
     margin-bottom: 0.5vh;
 }
 
@@ -135,7 +136,7 @@ h4 {
     border-radius: 0.3rem;
     width: 5vw;
     height: 10vh;
-    margin: 0 0.1vw;
+    margin: 0 0.15vw;
 }
 
 
@@ -206,13 +207,10 @@ hr {
     position: absolute;
     left:1;
     top: 0; 
-    margin-top: 18vh;
+    margin-top: 16vh;
     margin-left: 39.3vw;
 }
 
-ul {
-    margin-bottom: 15vh;
-}
 
 li {
     display: flex;
@@ -221,15 +219,16 @@ li {
     border-radius: 0.9rem;
     list-style: none;
     color: inherit;
-    width: 4vh;
-    height: 3.5vh;
+    width: 11vh;
+    height: 6.5vh;
     font-size: 14px; 
     font-family: 'NeoDunggeunmo';
-    width: 11vh;
-    height: 6vh;
+
     background-color: #FFB5E6;
-    margin-top: 1.5vh;
+    margin-top: 1.3vh;
 }
+
+li
 
 a {
     text-decoration: none;
