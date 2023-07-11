@@ -21,9 +21,13 @@ body {
   justify-content: center;
 }
 
+h1 {
+  margin: 0 5px;
+}
+
 .applee > img {
-  width:3vw;
-  height: 6vh;
+  width:40px;
+  height: 40px;
 }
 
 .gameBoard {
@@ -38,7 +42,8 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
+    cursor: url('./애벌레\ \(1\).png'), auto;
+    
   }
   
 .apple {

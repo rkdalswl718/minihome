@@ -119,8 +119,8 @@ h4 {
     align-items: center;
     justify-content: center; /* 가로 정렬을 위해 필요한 속성 */
     margin-top: 1.5vh;
-  }
-  
+}
+
 .friending1 > img {
     border-radius: 0.3rem;
     width: 5vw;
@@ -142,7 +142,7 @@ h4 {
     width: 42vw;
     height: 80vh;
     border-radius: 1rem;
-    margin-top: 6vh;
+    margin-top: 6.4vh;
     margin-left: 1.5vw;
     
 }
@@ -228,7 +228,6 @@ li {
     color: inherit;
     width: 11vh;
     height: 6.5vh;
-    font-size: 14px; 
     background-color: #FFB5E6;
     margin-top: 1.3vh;
 }

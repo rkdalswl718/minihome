@@ -142,7 +142,7 @@ h4 {
     width: 42vw;
     height: 80vh;
     border-radius: 1rem;
-    margin-top: 6vh;
+    margin-top: 6.4vh;
     margin-left: 1.5vw;
     display: flex;
     justify-content: center;
@@ -320,7 +320,6 @@ li {
     color: inherit;
     width: 11vh;
     height: 6.5vh;
-    font-size: 14px; 
     background-color: #FFB5E6;
     margin-top: 1.3vh;
 }
