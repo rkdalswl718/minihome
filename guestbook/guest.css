@@ -235,7 +235,7 @@ h1 {
     z-index: 1;
     position: absolute;
     button:0;
-    margin-top: 34vh;
+    margin-top: 39vh;
     background-color: rgba(255, 237, 250, 1);
     border-radius: 0.5vw;
     margin-right: 2vw;
@@ -278,7 +278,18 @@ h1 {
     cursor: pointer;
 }
 
-.form-submit:hover {
+.form-cancel {
+    width: 3.7vw;
+    height: 4.5vh;
+    border: none;
+    border-radius: 3vw;
+    background-color: #FFB5E6;
+    color: #000000;
+    font-size: 1vw;
+    cursor: pointer;
+}
+
+.form-submit:hover, .form-cancel:hover {
     background: rgba(245, 245, 245, 1);
 }
 
