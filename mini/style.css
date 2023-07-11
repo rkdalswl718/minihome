@@ -160,12 +160,13 @@ hr {
 #announcement {
     display: flex;
     justify-content: start;
-    margin-top: 3vh;
+    margin-top: 3.5vh;
+    font-size: 2.2vh;
 }
 
 .notification {
     margin-left: 2vw;
-    margin-top: 2vh;
+    margin-top: 1.5vh;
     margin-bottom: 2vh;
 }
 
@@ -176,12 +177,13 @@ hr {
 #writinglist {
     display: flex;
     justify-content: start;
-    margin-top: 3vh;
+    margin-top: 3.5vh;
+    font-size: 2.2vh;
 }
 
 .write {
     margin-left: 2vw;
-    margin-top: 2vh;
+    margin-top: 1.5vh;
     margin-bottom: 2vh;
 }
 
@@ -189,11 +191,15 @@ hr {
     margin-top: 1.5vh;
 }
 
+.minji {
+    display: flex;
+}
+
 #newpd {
-    width: 1vw;
-    height: 2vh;
+    width: 0.8vw;
+    height: 1.8vh;
     margin-left: 0.3vw;
-    
+    margin-top: 0.1vh;
 }
 
 .menu {
@@ -235,12 +241,13 @@ a {
 #mainpd {
     display: flex;
     justify-content: start;
-    margin-top: 3vh;
+    margin-top: 3.5vh;
+    font-size: 2.2vh;
 }
 
 #field {
     margin-left: 2vw;
-    margin-top: 2vh;
+    margin-top: 1.5vh;
     display: flex;
     justify-content: start;
 }
@@ -249,5 +256,6 @@ a {
     width: 29vw;
     height: 31vh;
     margin-left: 2vw;
-    margin-top: 2vh;
+    margin-top: 1.5vh;
+    border-radius: 1.5vh;
 }
