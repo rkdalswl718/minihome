@@ -144,7 +144,17 @@ h4 {
     border-radius: 1rem;
     margin-top: 6vh;
     margin-left: 1.5vw;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat {
+    border-radius: 2vh;
+    width:35vw;
+    height:70vh;
+    margin-right:2vw;
+    background-color:rgba(255, 237, 250, 1);
 }
 
 
@@ -157,11 +167,11 @@ h4 {
     left:1;
     top: 0; 
     margin-top: 16vh;
-    margin-left: 39.3vw;
+    margin-left: 42vw;
 }
 
 
-#home {
+#guestBook {
     background-color: rgba(245, 245, 245, 1);
 }
 
