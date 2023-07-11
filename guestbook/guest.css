@@ -1,95 +1,149 @@
-@font-face {
-    font-family: 'NeoDunggeunmo';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.3/NeoDunggeunmo.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
 * {
     margin: 0;
     padding: 0;
-    font-family: 'NeoDunggeunmo';
 }
 
 body {
-    margin-top: 60px;
-    background-image: url('https://i.pinimg.com/564x/e9/61/db/e961db6177b6a85ea7f6deac8cfdbf04.jpg');
+    background-image: url("https://i.pinimg.com/564x/78/0e/cd/780ecdace24a24a3df306ad0e2423e7f.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
-#guest {
-    width: 500px;
-    margin: 0 auto;
-    padding: 30px;
-    border: 3px solid #FEF1F1;
-    border-radius: 5px;
+.background1 {
+    width: 70vw;
+    height: 90vh;
+    background-color: rgb(255, 255, 255, 0.7);
+    border-radius: 1rem;
+    display: flex;
 }
 
-#uu {
-    font-size: 20px;
+h4 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 2vw;
+    margin-top: 2.3vh;
 }
 
-h1 {
-    font-size: 25pt;
-    margin-top: 5px;
-    margin-bottom: 26px;
+#divide {
+    margin-left: 0.8vw;
+    margin-right: 0.8vw;
 }
 
-.comment {
-    padding: 10px;
-    border: 1px solid #000000;
-    border-radius: 5px;
-    margin-bottom: 10px;
+#today {
+    margin-left: 0.25vw;
 }
 
-.comment p {
-    margin: 0;
+#total {
+    margin-left: 0.5vw;
 }
 
-.comment .name {
-    font-weight: bold;
+.section1 {
+    background-color: #fff;
+    width: 20vw;
+    height: 80vh;
+    margin-top: 1.7vh;
+    margin-left:2.5vw;
+    border-radius: 1rem;
+
+
 }
 
-.comment .timestamp {
-    margin-left: 7px;
-    font-size: 0.8em;
-    color: #999;
+.name1 {
+    display: flex;
 }
 
-.form-input {
-    display: block;
-    margin-bottom: 20px;
-    padding: 5px;
-    border: 1px solid #000000;
-    border-radius: 5px;
-    width: 100%;
-    box-sizing: border-box;
-    font-size: 1em;
+.name {
+    background-color: rgba(255, 237, 250, 1);
+    width: 17.5vw;
+    height: 4.7vh;
+    border-radius: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1.25vw;
+        margin-top: 2vh;
+        
 }
 
-.form-textarea {
-    display: block;
-    margin-bottom: 10px;
-    padding: 5px;
-    border: 1px solid #000000;
-    border-radius: 5px;
-    width: 100%;
-    box-sizing: border-box;
-    font-size: 1em;
-    resize: vertical;
-    height: 110px;
+.mainImage {
+    background-color: rgba(255, 237, 250, 1);
+    width:17.5vw;
+    height: 23vh;
+    border-radius: 0.7rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 1vh;
+    margin-left: 1.25vw;
+
 }
 
-.form-submit {
-    padding: 10px 20px;
-    margin-top: 5px;
-    margin-bottom: 15px;
-    border: none;
-    border-radius: 5px;
-    background-color: #000000;
-    color: #fff;
-    font-size: 1em;
-    cursor: pointer;
+#image1 {
+    width: 15.3vw;
+    height: 20vh;
+    border-radius: 0.4rem;
 }
 
-.form-submit:hover {
-    background: rgb(45, 45, 45);
+#notice {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Inter;
+    font-size: 15px;
+    margin-top: 7.5vh;
 }
+
+#friend {
+    background-color: rgba(255, 237, 250, 1);
+    width: 17.5vw;
+    height: 4.7vh;
+    border-radius: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1.25vw;
+    margin-top: 8vh;
+}
+
+.friending {
+    display: flex;
+    flex-wrap: wrap; /* 이미지를 여러 줄로 나누기 위해 필요한 속성 */
+    align-items: center;
+    justify-content: center; /* 가로 정렬을 위해 필요한 속성 */
+    margin-top: 1.5vh;
+  }
+  
+.friending1 > img {
+    border-radius: 0.3rem;
+    width: 5vw;
+    height: 10vh;
+    margin: 0 0.15vw;
+    margin-bottom: 0.5vh;
+}
+
+.friending2 > img {
+    border-radius: 0.3rem;
+    width: 5vw;
+    height: 10vh;
+    margin: 0 0.15vw;
+}
+
+
+.section2 {
+    background-color: #fff;
+    width: 42vw;
+    height: 80vh;
+    border-radius: 1rem;
+    margin-top: 6vh;
+    margin-left: 1.5vw;
+    
+}
+

@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("https://i.pinimg.com/564x/78/0e/cd/780ecdace24a24a3df306ad0e2423e7f.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.background1 {
+    width: 70vw;
+    height: 90vh;
+    background-color: rgb(255, 255, 255, 0.7);
+    border-radius: 1rem;
+    display: flex;
+}
+
+h4 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 2vw;
+    margin-top: 2.3vh;
+}
+
+#divide {
+    margin-left: 0.8vw;
+    margin-right: 0.8vw;
+}
+
+#today {
+    margin-left: 0.25vw;
+}
+
+#total {
+    margin-left: 0.5vw;
+}
+
+.section1 {
+    background-color: #fff;
+    width: 20vw;
+    height: 80vh;
+    margin-top: 1.7vh;
+    margin-left:2.5vw;
+    border-radius: 1rem;
+
+
+}
+
+.name1 {
+    display: flex;
+}
+
+.name {
+    background-color: rgba(255, 237, 250, 1);
+    width: 17.5vw;
+    height: 4.7vh;
+    border-radius: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1.25vw;
+        margin-top: 2vh;
+        
+}
+
+.mainImage {
+    background-color: rgba(255, 237, 250, 1);
+    width:17.5vw;
+    height: 23vh;
+    border-radius: 0.7rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 1vh;
+    margin-left: 1.25vw;
+
+}
+
+#image1 {
+    width: 15.3vw;
+    height: 20vh;
+    border-radius: 0.4rem;
+}
+
+#notice {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Inter;
+    font-size: 15px;
+    margin-top: 7.5vh;
+}
+
+#friend {
+    background-color: rgba(255, 237, 250, 1);
+    width: 17.5vw;
+    height: 4.7vh;
+    border-radius: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1.25vw;
+    margin-top: 8vh;
+}
+
+.friending {
+    display: flex;
+    flex-wrap: wrap; /* 이미지를 여러 줄로 나누기 위해 필요한 속성 */
+    align-items: center;
+    justify-content: center; /* 가로 정렬을 위해 필요한 속성 */
+    margin-top: 1.5vh;
+  }
+  
+.friending1 > img {
+    border-radius: 0.3rem;
+    width: 5vw;
+    height: 10vh;
+    margin: 0 0.15vw;
+    margin-bottom: 0.5vh;
+}
+
+.friending2 > img {
+    border-radius: 0.3rem;
+    width: 5vw;
+    height: 10vh;
+    margin: 0 0.15vw;
+}
+
+
+.section2 {
+    background-color: #fff;
+    width: 42vw;
+    height: 80vh;
+    border-radius: 1rem;
+    margin-top: 6vh;
+    margin-left: 1.5vw;
+    
+}
+
+
+
+
+hr {
+    width: 84%;
+    height: 0;
+    margin-left: 1.5vw;
+    margin-top: 0.5rem;
+}
+
+#announcement {
+    display: flex;
+    justify-content: start;
+    margin-top: 3.5vh;
+    font-size: 2.2vh;
+}
+
+.notification {
+    margin-left: 2vw;
+    margin-top: 1.5vh;
+    margin-bottom: 2vh;
+}
+
+.notification > h5 {
+    margin-top: 1.5vh;
+}
+
+#writinglist {
+    display: flex;
+    justify-content: start;
+    margin-top: 3.5vh;
+    font-size: 2.2vh;
+}
+
+.write {
+    margin-left: 2vw;
+    margin-top: 1.5vh;
+    margin-bottom: 2vh;
+}
+
+.write > h5 {
+    margin-top: 1.5vh;
+}
+
+.minji {
+    display: flex;
+}
+
+#newpd {
+    width: 0.8vw;
+    height: 1.8vh;
+    margin-left: 0.3vw;
+    margin-top: 0.1vh;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    left:1;
+    top: 0; 
+    margin-top: 16vh;
+    margin-left: 39.3vw;
+}
+
+
+#home {
+    background-color: rgba(245, 245, 245, 1);
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.9rem;
+    list-style: none;
+    color: inherit;
+    width: 11vh;
+    height: 6.5vh;
+    font-size: 14px; 
+    background-color: #FFB5E6;
+    margin-top: 1.3vh;
+}
+
+li:hover {
+    background-color: rgba(245, 245, 245, 1);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#mainpd {
+    display: flex;
+    justify-content: start;
+    margin-top: 3.5vh;
+    font-size: 2.2vh;
+}
+
+#field {
+    margin-left: 2vw;
+    margin-top: 1.5vh;
+    display: flex;
+    justify-content: start;
+}
+
+#field2 {
+    width: 29vw;
+    height: 31vh;
+    margin-left: 2vw;
+    margin-top: 1.5vh;
+    border-radius: 1.5vh;
+}
