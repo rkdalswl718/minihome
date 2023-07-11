@@ -226,7 +226,7 @@ h1 {
 .comment .timestamp {
     margin-left: 0.3vw;
     font-size: 0.9vh;
-    rgba(105, 105, 105, 1)
+    color: rgba(105, 105, 105, 1);
 }
 
 #comment-form {

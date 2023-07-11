@@ -60,15 +60,14 @@ const commentForm = document.getElementById('comment-form');
             e.preventDefault();
             const { name, comment } = e.target.elements;
             const timestamp = new Date().toLocaleString();
-            const newComment = `<div class="comment"><p>
-            <span class="name">${name.value}</span>
-            <span class="timestamp">${timestamp}</span></p>
+            const newComment = `<div class="comment"><p></p><span class="name">${name.value}
+            </span><span class="timestamp">${timestamp}</span></p>
             <p>${comment.value}</p></div>`;
-            commentList.insertAdjacentHTML('beforeend', newComment);
+            commentList.insertAdjacentHTML('afterbegin', newComment);
             e.target.reset();
 
             // 새로운 방명록을 로컬 스토리지에 저장
-            savedComments.push(newComment);
+            savedComments.unshift(newComment);
             localStorage.setItem('guestbookComments', JSON.stringify(savedComments));
         });
 
