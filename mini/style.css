@@ -231,7 +231,9 @@ li {
     margin-top: 1.3vh;
 }
 
-li
+li:hover {
+    background-color: rgba(245, 245, 245, 1);
+}
 
 a {
     text-decoration: none;
