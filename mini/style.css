@@ -76,7 +76,7 @@ h4 {
 .mainImage {
     background-color: rgba(255, 237, 250, 1);
     width:17.5vw;
-    height: 23vh;
+    height: 24vh;
     border-radius: 0.7rem;
     align-items: center;
     justify-content: center;
@@ -88,7 +88,7 @@ h4 {
 
 #image1 {
     width: 15.3vw;
-    height: 20vh;
+    height: 21vh;
     border-radius: 0.4rem;
 }
 
@@ -98,7 +98,7 @@ h4 {
     justify-content: center;
     font-family: Inter;
     font-size: 15px;
-    margin-top: 7.5vh;
+    margin-top: 7vh;
 }
 
 #friend {
@@ -110,7 +110,7 @@ h4 {
     align-items: center;
     justify-content: center;
     margin-left: 1.25vw;
-    margin-top: 8vh;
+    margin-top: 7vh;
 }
 
 .friending {
