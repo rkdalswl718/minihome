@@ -202,32 +202,63 @@ a {
 
 .box1 {
     width: 35vw;
-    height: 22vh;
+    height: 26vh;
     background-color: rgba(255, 237, 250, 1);
     display: flex;
     border-radius: 1vw;
 }
 
 .profile {
-    width: 10vw;
-    height: 18vh;
+    width: 11vw;
+    height: 22vh;
     object-fit: cover;
     border-radius: 2vw;
-    display: flex;
     margin-top: 2vh;
     margin-left: 1vw;
 }
 
 .myInfo {
+    margin-left:8vw;
+
     
 }
 
-.h4 {
+.minibox1 {
     display: flex;
-    flex-direction: column  ;
-    margin-left: 4vw;
+    flex-direction: column;
+    align-items: center;
 }
 
 .li2 > li {
+    list-style: none;
+    font-size: 15px;
+    margin-top: 1vh;
+    margin-left: 2.5vw;
+}
+
+.box2 {
+    width: 35vw;
+    height: 13vh;
+    background-color: rgba(255, 237, 250, 1);
+    display: flex;
+    border-radius: 1vw;
+    margin-top: 1vw;
+}
+
+.box3 {
+    width: 35vw;
+    height: 30vh;
+    background-color: rgba(255, 237, 250, 1);
+    display: flex;
+    border-radius: 1vw;
+    margin-top: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homepi {
+    width: 33vw;
+    height: 26vh;
     
 }
