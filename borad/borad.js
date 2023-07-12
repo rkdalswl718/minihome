@@ -87,8 +87,9 @@ postForm.addEventListener('submit', function (e) {
     // 이미지 미리보기 초기화
     imagePreview.setAttribute('src', '');
     imagePreview.style.display = 'none';
-  };
 
+    inputForm.style.display = 'none';
+  };
   reader.readAsDataURL(imageFileInput.files[0]);
 });
 
