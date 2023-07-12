@@ -185,8 +185,8 @@ h4 {
 
 .send {
     margin-top: 3.9vh;
-    margin-left:30.5vw;
-    width: 3.7vw;
+    margin-left:30vw;
+    width: 4.1vw;
     height: 4.5vh;
     border: none;
     border-radius: 3vw;
@@ -197,7 +197,7 @@ h4 {
 }
 
 
-#guestBook {
+#noticeBoard {
     background-color: rgba(245, 245, 245, 1);
 }
 
@@ -211,7 +211,8 @@ h1 {
     margin-top:2.5vh;
 }
 
-.comment {
+
+.post {
     margin-left: 1.5vw;
     margin-top:2vh;
     background-color: rgba(255, 255, 255, 0.8);
@@ -223,27 +224,26 @@ h1 {
 
 }
 
-.comment p {
+.post p {
     margin: 0;
 }
 
-.comment .name {
+.post .name {
     font-weight: bold;
 }
 
-.comment .timestamp {
+.post .timestamp {
     margin-left: 0.3vw;
     font-size: 0.9vh;
     color: rgba(105, 105, 105, 1);
 }
 
-#comment-form {
+#post-form {
     width: 31vw;
-    height: 25vh;
+    height: 48vh;
     z-index: 1;
-    position: absolute;
-    button:0;
-    margin-top: 39vh;
+    position: fixed;
+    margin-top: 15vh;
     background-color: rgba(255, 237, 250, 1);
     border-radius: 0.5vw;
     margin-right: 2vw;
@@ -261,9 +261,22 @@ h1 {
     border-style: none;
 }
 
+.imageuplod {
+    margin-bottom: 1vh;
+}
+
+#image-preview {
+    width: 10vw;
+    height: 20vh;
+    object-fit: cover;
+    border-radius: 0.9vw;
+    margin-bottom: 1vw;
+}
+
+
 .form-textarea {
     display: block;
-    margin-bottom: 1vw;
+    margin-bottom: 3vw;
     padding: 5px;
     border-radius: 0.5vw;
     border-style: none;
@@ -276,7 +289,7 @@ h1 {
 }
 
 .form-submit {
-    width: 3.7vw;
+    width: 4.1vw;
     height: 4.5vh;
     border: none;
     border-radius: 3vw;
@@ -284,6 +297,10 @@ h1 {
     color: #000000;
     font-size: 1vw;
     cursor: pointer;
+    margin-left: 22.7vw;
+    margin-top: 29vh;
+    position: absolute;
+    top: 0;
 }
 
 .form-cancel {
@@ -295,17 +312,16 @@ h1 {
     color: #000000;
     font-size: 1vw;
     cursor: pointer;
+    margin-left: 27.3vw;
+    margin-top: 29vh;
+    position: absolute;
+    top: 0;
 }
 
 .form-submit:hover, .form-cancel:hover {
     background: rgba(245, 245, 245, 1);
 }
 
-.mini4 {
-    display: flex;
-    align-items: center;
-    justify-content:center  ;
-}
 
 .menu {
     display: flex;

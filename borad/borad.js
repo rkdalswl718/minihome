@@ -5,9 +5,6 @@ let total = localStorage.getItem('total') || 6432;
 const currentDate = new Date();
 const lastResetDate = localStorage.getItem('lastResetDate');
 const resetTime = 0;
-const chatBox = document.querySelector(".chat");
-const inputForm = document.getElementById('comment-form');
-const cancelButton = document.querySelector('.form-cancel');
 
 if (!lastResetDate || currentDate.getDate() > parseInt(lastResetDate)) {
   today = 1;
@@ -47,35 +44,56 @@ if (!lastResetDate || currentDate.getDate() > parseInt(lastResetDate)) {
 
 increaseTotal();
 
+const postForm = document.getElementById('post-form');
+const postList = document.getElementById('post-list');
+const chatBox = document.querySelector(".chat");
+const inputForm = document.getElementById('post-form');
+const cancelButton = document.querySelector('.form-cancel');
+const imageFileInput = document.getElementById('image-file-input');
+const imagePreview = document.getElementById('image-preview');
 
-const commentForm = document.getElementById('comment-form');
-        const commentList = document.getElementById('comment-list');
+// 이전에 저장된 방명록 로드
+const savedPosts = JSON.parse(localStorage.getItem('savePoster')) || [];
+postList.innerHTML = savedPosts.join('');
 
-        // 이전에 저장된 방명록 로드
-        const savedComments = JSON.parse(localStorage.getItem('guestbookComments')) || [];
-        commentList.innerHTML = savedComments.join('');
-        // 배열의 모든 요소를 하나의 문자열로 결합, 그 결과를 commentList 내용으로 설정하는 역할
+postForm.addEventListener('submit', function (e) {
+  e.preventDefault();
+  const { name, post } = e.target.elements;
+  const timestamp = new Date().toLocaleString();
+  const newPost = `<div class="post">
+    <p><span class="name">${name.value}</span><span class="timestamp">${timestamp}</span></p>
+    <p>${post.value}</p>
+    <img src="${imagePreview.src}" alt="Uploaded Image">
+  </div>`;
+  postList.insertAdjacentHTML('afterbegin', newPost);
+  e.target.reset();
 
-        commentForm.addEventListener('submit', function (e) {
-            e.preventDefault();
-            const { name, comment } = e.target.elements;
-            const timestamp = new Date().toLocaleString();
-            const newComment = `<div class="comment"><p></p><span class="name">${name.value}
-            </span><span class="timestamp">${timestamp}</span></p>
-            <p>${comment.value}</p></div>`;
-            commentList.insertAdjacentHTML('afterbegin', newComment);
-            e.target.reset();
+  // 새로운 방명록을 로컬 스토리지에 저장
+  savedPosts.unshift(newPost);
+  localStorage.setItem('savePoster', JSON.stringify(savedPosts));
 
-            // 새로운 방명록을 로컬 스토리지에 저장
-            savedComments.unshift(newComment);
-            localStorage.setItem('guestbookComments', JSON.stringify(savedComments));
-        });
+  // 이미지 미리보기 초기화
+  imagePreview.setAttribute('src', '');
+  imagePreview.style.display = 'none';
+});
 
+imageFileInput.addEventListener('change', (e) => {
+  const file = e.target.files[0];
+  const reader = new FileReader();
 
-chatBox.addEventListener('click', () =>{
+  reader.onload = (event) => {
+    const imageUrl = event.target.result;
+    imagePreview.setAttribute('src', imageUrl);
+    imagePreview.style.display = 'block';
+  };
+
+  reader.readAsDataURL(file);
+});
+
+chatBox.addEventListener('click', () => {
   inputForm.style.display = 'block';
-})
+});
 
 cancelButton.addEventListener('click', () => {
   inputForm.style.display = 'none';
-})
+});
