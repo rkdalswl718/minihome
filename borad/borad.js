@@ -62,8 +62,8 @@ postForm.addEventListener('submit', function (e) {
   const timestamp = new Date().toLocaleString();
   const newPost = `<div class="post">
     <p><span class="name">${name.value}</span><span class="timestamp">${timestamp}</span></p>
+    <img class="img" src="${imagePreview.src}" alt="Uploaded Image">
     <p>${post.value}</p>
-    <img src="${imagePreview.src}" alt="Uploaded Image">
   </div>`;
   postList.insertAdjacentHTML('afterbegin', newPost);
   e.target.reset();
