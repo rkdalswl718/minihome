@@ -88,12 +88,13 @@ h4 {
     display: flex;
     margin-top: 1vh;
     margin-left: 1.25vw;
-
+    
 }
 
 #image1 {
     width: 15.3vw;
     height: 21vh;
+    object-fit: cover;
     border-radius: 0.4rem;
 }
 
