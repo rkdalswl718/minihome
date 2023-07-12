@@ -97,6 +97,7 @@ h4 {
     width: 15.3vw;
     height: 21vh;
     border-radius: 0.4rem;
+    object-fit: cover;
 }
 
 #notice {

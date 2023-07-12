@@ -88,7 +88,6 @@ h4 {
     display: flex;
     margin-top: 1vh;
     margin-left: 1.25vw;
-    
 }
 
 #image1 {
@@ -270,5 +269,5 @@ a {
     margin-left: 2vw;
     margin-top: 1.5vh;
     border-radius: 1.5vh;
-    object-fit: cover   ;
+    object-fit: cover;
 }
