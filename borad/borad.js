@@ -60,22 +60,38 @@ postForm.addEventListener('submit', function (e) {
   e.preventDefault();
   const { name, post } = e.target.elements;
   const timestamp = new Date().toLocaleString();
-  const newPost = `<div class="post">
-    <p><span class="name">${name.value}</span><span class="timestamp">${timestamp}</span></p>
-    <img class="img" src="${imagePreview.src}" alt="Uploaded Image">
-    <p>${post.value}</p>
-  </div>`;
-  postList.insertAdjacentHTML('afterbegin', newPost);
-  e.target.reset();
 
-  // 새로운 방명록을 로컬 스토리지에 저장
-  savedPosts.unshift(newPost);
-  localStorage.setItem('savePoster', JSON.stringify(savedPosts));
+  if (!imageFileInput.files[0]) {
+    alert("사진을 선택해주세요.");
+    return;
+  }
 
-  // 이미지 미리보기 초기화
-  imagePreview.setAttribute('src', '');
-  imagePreview.style.display = 'none';
+  const reader = new FileReader();
+
+  reader.onload = (event) => {
+    const imageUrl = event.target.result;
+
+    const newPost = `<div class="post">
+      <p><span class="name">${name.value}</span><span class="timestamp">${timestamp}</span></p>
+      <img class="img" src="${imageUrl}" alt="Uploaded Image">
+      <p>${post.value}</p>
+    </div>`;
+
+    postList.insertAdjacentHTML('afterbegin', newPost);
+    e.target.reset();
+
+    // 새로운 방명록을 로컬 스토리지에 저장
+    savedPosts.unshift(newPost);
+    localStorage.setItem('savePoster', JSON.stringify(savedPosts));
+
+    // 이미지 미리보기 초기화
+    imagePreview.setAttribute('src', '');
+    imagePreview.style.display = 'none';
+  };
+
+  reader.readAsDataURL(imageFileInput.files[0]);
 });
+
 
 imageFileInput.addEventListener('change', (e) => {
   const file = e.target.files[0];
