@@ -1,4 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@font-face {
+    font-family: 'DungGeunMo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 * {
     margin: 0;
@@ -52,7 +59,7 @@ h4 {
     margin-top: 1.7vh;
     margin-left:2.5vw;
     border-radius: 1rem;
-
+    font-family: 'DungGeunMo';
 
 }
 
@@ -60,7 +67,7 @@ h4 {
     display: flex;
 }
 
-.name {
+.name3 {
     background-color: rgba(255, 237, 250, 1);
     width: 17.5vw;
     height: 4.7vh;
@@ -76,7 +83,7 @@ h4 {
 .mainImage {
     background-color: rgba(255, 237, 250, 1);
     width:17.5vw;
-    height: 23vh;
+    height: 24vh;
     border-radius: 0.7rem;
     align-items: center;
     justify-content: center;
@@ -88,7 +95,7 @@ h4 {
 
 #image1 {
     width: 15.3vw;
-    height: 20vh;
+    height: 21vh;
     border-radius: 0.4rem;
 }
 
@@ -98,7 +105,8 @@ h4 {
     justify-content: center;
     font-family: Inter;
     font-size: 15px;
-    margin-top: 7.5vh;
+    margin-top: 7vh;
+    font-family: 'DungGeunMo';
 }
 
 #friend {
@@ -110,7 +118,7 @@ h4 {
     align-items: center;
     justify-content: center;
     margin-left: 1.25vw;
-    margin-top: 8vh;
+    margin-top: 7vh;
 }
 
 .friending {
@@ -142,64 +150,161 @@ h4 {
     width: 42vw;
     height: 80vh;
     border-radius: 1rem;
-    margin-top: 6vh;
+    margin-top: 6.4vh;
     margin-left: 1.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chatbox {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 0.5vh;
+}
+
+.mini2 {
+    border-radius: 2vh;
+    width:35vw;
+    height:62vh;
+    margin-right:2vw;
+    background-color:rgba(255, 237, 250, 1);
+    margin-bottom: 2vh;
+    overflow: auto;
+}
+
+.chat {
+    border-radius: 2vh;
+    width:35vw;
+    height:10vh;
+    margin-right:2vw;
+    background-color:rgba(255, 237, 250, 1);
     
 }
 
+.send {
+    margin-top: 3.9vh;
+    margin-left:30.5vw;
+    width: 3.7vw;
+    height: 4.5vh;
+    border: none;
+    border-radius: 3vw;
+    background-color: #FFB5E6;
+    color: #000000;
+    font-size: 1vw;
+    cursor: pointer;
+}
 
 
+#guestBook {
+    background-color: rgba(245, 245, 245, 1);
+}
 
-hr {
-    width: 84%;
-    height: 0;
+h1 {
+    font-size: 25pt;
+    margin-top: 5px;
+    margin-bottom: 26px;
+}
+
+.mini3 {
+    margin-top:2.5vh;
+}
+
+.comment {
     margin-left: 1.5vw;
-    margin-top: 0.5rem;
-}
-
-#announcement {
-    display: flex;
-    justify-content: start;
-    margin-top: 3.5vh;
-    font-size: 2.2vh;
-}
-
-.notification {
-    margin-left: 2vw;
-    margin-top: 1.5vh;
+    margin-top:2vh;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 85%;
+    border-radius: 0.9vw;
+    padding: 1vw;
+    border-radius: 5px;
     margin-bottom: 2vh;
+
 }
 
-.notification > h5 {
-    margin-top: 1.5vh;
+.comment p {
+    margin: 0;
 }
 
-#writinglist {
-    display: flex;
-    justify-content: start;
-    margin-top: 3.5vh;
-    font-size: 2.2vh;
+.comment .name {
+    font-weight: bold;
 }
 
-.write {
-    margin-left: 2vw;
-    margin-top: 1.5vh;
-    margin-bottom: 2vh;
-}
-
-.write > h5 {
-    margin-top: 1.5vh;
-}
-
-.minji {
-    display: flex;
-}
-
-#newpd {
-    width: 0.8vw;
-    height: 1.8vh;
+.comment .timestamp {
     margin-left: 0.3vw;
-    margin-top: 0.1vh;
+    font-size: 0.9vh;
+    color: rgba(105, 105, 105, 1);
+}
+
+#comment-form {
+    width: 31vw;
+    height: 25vh;
+    z-index: 1;
+    position: absolute;
+    button:0;
+    margin-top: 39vh;
+    background-color: rgba(255, 237, 250, 1);
+    border-radius: 0.5vw;
+    margin-right: 2vw;
+    padding: 2vw;
+}
+
+.form-input {
+    display: block;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 0.5vw;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+    border-style: none;
+}
+
+.form-textarea {
+    display: block;
+    margin-bottom: 1vw;
+    padding: 5px;
+    border-radius: 0.5vw;
+    border-style: none;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+    resize: vertical;
+    height: 110px;
+    resize: none;
+}
+
+.form-submit {
+    width: 3.7vw;
+    height: 4.5vh;
+    border: none;
+    border-radius: 3vw;
+    background-color: #FFB5E6;
+    color: #000000;
+    font-size: 1vw;
+    cursor: pointer;
+}
+
+.form-cancel {
+    width: 3.7vw;
+    height: 4.5vh;
+    border: none;
+    border-radius: 3vw;
+    background-color: #FFB5E6;
+    color: #000000;
+    font-size: 1vw;
+    cursor: pointer;
+}
+
+.form-submit:hover, .form-cancel:hover {
+    background: rgba(245, 245, 245, 1);
+}
+
+.mini4 {
+    display: flex;
+    align-items: center;
+    justify-content:center  ;
 }
 
 .menu {
@@ -211,12 +316,7 @@ hr {
     left:1;
     top: 0; 
     margin-top: 16vh;
-    margin-left: 39.3vw;
-}
-
-
-#home {
-    background-color: rgba(245, 245, 245, 1);
+    margin-left: 42vw;
 }
 
 li {
@@ -226,11 +326,12 @@ li {
     border-radius: 0.9rem;
     list-style: none;
     color: inherit;
-    width: 11vh;
-    height: 6.5vh;
-    font-size: 14px; 
+    width: 10vh;
+    height: 6vh;
+    font-size: 15px;
     background-color: #FFB5E6;
     margin-top: 1.3vh;
+    font-family: 'DungGeunMo';
 }
 
 li:hover {
@@ -240,26 +341,4 @@ li:hover {
 a {
     text-decoration: none;
     color: inherit;
-}
-
-#mainpd {
-    display: flex;
-    justify-content: start;
-    margin-top: 3.5vh;
-    font-size: 2.2vh;
-}
-
-#field {
-    margin-left: 2vw;
-    margin-top: 1.5vh;
-    display: flex;
-    justify-content: start;
-}
-
-#field2 {
-    width: 29vw;
-    height: 31vh;
-    margin-left: 2vw;
-    margin-top: 1.5vh;
-    border-radius: 1.5vh;
 }
