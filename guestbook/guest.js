@@ -69,6 +69,8 @@ const commentForm = document.getElementById('comment-form');
             // 새로운 방명록을 로컬 스토리지에 저장
             savedComments.unshift(newComment);
             localStorage.setItem('guestbookComments', JSON.stringify(savedComments));
+
+            inputForm.style.display = 'none';
         });
 
 
