@@ -1,4 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@font-face {
+    font-family: 'DungGeunMo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 * {
     margin: 0;
@@ -52,7 +59,7 @@ h4 {
     margin-top: 1.7vh;
     margin-left:2.5vw;
     border-radius: 1rem;
-
+    font-family: 'DungGeunMo';
 
 }
 
@@ -99,6 +106,7 @@ h4 {
     font-family: Inter;
     font-size: 15px;
     margin-top: 7vh;
+    font-family: 'DungGeunMo';
 }
 
 #friend {
@@ -296,7 +304,7 @@ h1 {
 .mini4 {
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content:center  ;
 }
 
 .menu {
@@ -318,10 +326,12 @@ li {
     border-radius: 0.9rem;
     list-style: none;
     color: inherit;
-    width: 11vh;
-    height: 6.5vh;
+    width: 10vh;
+    height: 6vh;
+    font-size: 15px;
     background-color: #FFB5E6;
     margin-top: 1.3vh;
+    font-family: 'DungGeunMo';
 }
 
 li:hover {

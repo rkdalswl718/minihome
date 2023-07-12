@@ -43,7 +43,10 @@ h1 {
     justify-content: center;
     flex-direction: column;
     cursor: url('./애벌레\ \(1\).png'), auto;
-    
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
   }
   
 .apple {
