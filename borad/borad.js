@@ -112,10 +112,12 @@ chatBox.addEventListener('click', () => {
   inputForm.style.display = 'block';
 });
 
-cancelButton.addEventListener('click', () => {
+cancelButton.addEventListener('click', (e) => {
+  e.preventDefault();
   inputForm.style.display = 'none';
   chatBox.style.display = 'block';
 });
+
 
 postForm.addEventListener('keydown', (e) => {
   if (e.key === "Enter") {
