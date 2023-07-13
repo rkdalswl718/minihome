@@ -1,81 +1,81 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
 
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="../guestbook/guest.css" />
-        <link rel="icon" type="image"
-            href="https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Blossom/3D/blossom_3d.png">
-        <title>방명록</title>
-    </head>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../guestbook/guest.css" />
+    <link rel="icon" type="image"
+        href="https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Blossom/3D/blossom_3d.png">
+    <title>방명록</title>
+</head>
 
-    <body>
-        <div class="background1">
-            <div class="mini1">
-                <div class="date">
+<body>
+    <div class="background1">
+        <div class="mini1">
+            <div class="date">
+            </div>
+            <h4>
+                TODAY<span id="today">&nbsp; 1 </span>
+                <span id="divide">|</span>
+                TOTAL<span id="total">&nbsp; 6432</span>
+            </h4>
+            <div class="section1">
+                <div class="name1">
+                    <div class="name3">
+                        <span id="named3">민뀨뀨</span>
+                    </div>
                 </div>
-                <h4>
-                    TODAY<span id="today">&nbsp; 1 </span>
-                    <span id="divide">|</span>
-                    TOTAL<span id="total">&nbsp; 6432</span>
-                </h4>
-                <div class="section1">
-                    <div class="name1">
-                        <div class="name3">
-                            <span id="named3">민뀨뀨</span>
-                        </div>
+                <div class="mainImage">
+                    <img id="image1" src="../mini/메이플흰배경캐릭좀작은거.jpg">
+                </div>
+                <span id="notice">난... 가끔... 눈물을 흘린ㄷr</span>
+                <span id="friend">친구 목록</span>
+                <div class="friending">
+                    <div class="friending1">
+                        <img id="friend1" src="../mini/확대핑크색메이플.jpg" title="영으니공듀">
+                        <img id="friend2" src="../mini/KakaoTalk_20230713_113644212.jpg" title="뿌니뿌니">
+                        <img id="friend3" src="../mini/KakaoTalk_20230713_113644212_01.jpg" title="예리니">
                     </div>
-                    <div class="mainImage">
-                        <img id="image1" src="../mini/메이플흰배경캐릭좀작은거.jpg">
-                    </div>
-                    <span id="notice">난... 가끔... 눈물을 흘린ㄷr</span>
-                    <span id="friend">친구 목록</span>
-                    <div class="friending">
-                        <div class="friending1">
-                            <img id="friend1" src="../mini/확대핑크색메이플.jpg" title="영으니공듀">
-                            <img id="friend2" src="../mini/KakaoTalk_20230713_113644212.jpg" title="뿌니뿌니">
-                            <img id="friend3" src="../mini/KakaoTalk_20230713_113644212_01.jpg" title="예리니">
-                        </div>
-                        <div class="friending2">
-                            <img id="friend4" src="../mini/KakaoTalk_20230713_113644212_02.jpg" title="달콤사탕이">
-                            <img id="friend5" src="../mini/KakaoTalk_20230713_113644212_03.jpg" title="8차원세계어리니">
-                            <img id="friend6" src="../mini/KakaoTalk_20230713_113644212_04.jpg" title="사랑이">
-                        </div>
+                    <div class="friending2">
+                        <img id="friend4" src="../mini/KakaoTalk_20230713_113644212_02.jpg" title="달콤사탕이">
+                        <img id="friend5" src="../mini/KakaoTalk_20230713_113644212_03.jpg" title="8차원세계어리니">
+                        <img id="friend6" src="../mini/KakaoTalk_20230713_113644212_04.jpg" title="사랑이">
                     </div>
                 </div>
             </div>
-            <div class="section2">
-                <div class="menu">
-                    <ul>
-                    <li id="home"><a href="http://127.0.0.1:5501/mini/index.html">홈</a></li>
-                    <li id="profile"><a href="http://127.0.0.1:5501/profile/profile.html">프로필</a></li>
-                    <li id="noticeBoard"><a href="http://127.0.0.1:5501/borad/borad.html">게시판</a></li>
-                    <li id="guestBook"><a href="http://127.0.0.1:5501/guestbook/guest.html">방명록</a></li>
-                    <li id="game"><a href="http://127.0.0.1:5501/gogame/go.html">미니게임</a></li>
-                    </ul>
-                </div>
-                <div class="chatbox">
-                    <div class="mini2">
-                        <div class="mini3">
-                            <div id="comment-list"></div>
-                        </div>
-                    </div>
-                    <div class="chat">
-                        <button class="send" type="submit">전송</button> 
+        </div>
+        <div class="section2">
+            <div class="menu">
+                <ul>
+                    <li id="home"><a href="../mini/index.html">홈</a></li>
+                    <li id="profile"><a href="../profile/profile.html">프로필</a></li>
+                    <li id="noticeBoard"><a href="../borad/borad.html">게시판</a></li>
+                    <li id="guestBook" style="background-color: #f5f5f5;"><a href="../guestbook/guest.html">방명록</a></li>
+                    <li id="game"><a href="../gogame/go.html">미니게임</a></li>
+                </ul>
+            </div>
+            <div class="chatbox">
+                <div class="mini2">
+                    <div class="mini3">
+                        <div id="comment-list"></div>
                     </div>
                 </div>
-                <form id="comment-form" method="post" style="display: none;">
-                    <input class="form-input" type="text" name="name" id="name" required autocomplete="off" placeholder="닉네임">
-                    <textarea class="form-textarea" name="comment" id="comment" required autocomplete="off" placeholder="내용을 입력하세요."></textarea>
-                    <div id="mini4">
-                        <button class="form-cancel">닫기</button>
-                        <button class="form-submit" type="submit">전송</button>
-                    </div>
-                </form>
+                <div class="chat">
+                    <button class="send" type="submit">전송</button> 
                 </div>
             </div>
-            <audio id="audio" src="/y.mp3" preload="auto"></audio>
-            <script src="../guestbook/guest.js"></script>
-    </body>
+            <form id="comment-form" method="post" style="display: none;">
+                <input class="form-input" type="text" name="name" id="name" required autocomplete="off" placeholder="닉네임">
+                <textarea class="form-textarea" name="comment" id="comment" required autocomplete="off" placeholder="내용을 입력하세요."></textarea>
+                <div id="mini4">
+                    <button class="form-cancel">닫기</button>
+                    <button class="form-submit" type="submit">전송</button>
+                </div>
+            </form>
+            </div>
+        </div>
+        <audio id="audio" src="/y.mp3" preload="auto"></audio>
+        <script src="../guestbook/guest.js"></script>
+</body>
 
-    </html>
+</html>
