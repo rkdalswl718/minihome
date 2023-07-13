@@ -114,3 +114,10 @@ chatBox.addEventListener('click', () => {
 cancelButton.addEventListener('click', () => {
   inputForm.style.display = 'none';
 });
+
+postForm.addEventListener('keydown', (e) => {
+  if (e.key === "Enter") {
+    e.preventDefault();
+    postForm.dispatchEvent(new Event('submit'));
+  }
+});

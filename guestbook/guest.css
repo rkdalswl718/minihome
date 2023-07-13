@@ -175,6 +175,11 @@ h4 {
     overflow: auto;
 }
 
+.mini2::-webkit-scrollbar {
+    width: 10px;
+    display: none;
+  }
+
 .chat {
     border-radius: 2vh;
     width:35vw;
