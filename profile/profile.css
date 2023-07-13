@@ -97,7 +97,7 @@ h4 {
     width: 15.3vw;
     height: 21vh;
     border-radius: 0.4rem;
-    object-fit: cover;
+    object-fit: cover;a
 }
 
 #notice {
@@ -128,8 +128,8 @@ h4 {
     align-items: center;
     justify-content: center; /* 가로 정렬을 위해 필요한 속성 */
     margin-top: 1.5vh;
-  }
-  
+}
+
 .friending1 > img {
     border-radius: 0.3rem;
     width: 5vw;
