@@ -21,7 +21,7 @@ body {
 
 .minibox {
     width: 20vw;
-    height: 10vh;
+    height: 8vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
