@@ -61,11 +61,10 @@ postForm.addEventListener('submit', function (e) {
   const { name, post } = e.target.elements;
   const timestamp = new Date().toLocaleString();
 
-  if (!imageFileInput.files[0]) {
+  if (!imageFileInput.files[0]) { //사진을 선택하지 않았을 때
     alert("사진을 선택해주세요.");
     return;
   }
-
   const reader = new FileReader();
 
   reader.onload = (event) => {
@@ -89,6 +88,7 @@ postForm.addEventListener('submit', function (e) {
     imagePreview.style.display = 'none';
 
     inputForm.style.display = 'none';
+    chatBox.style.display = 'block';
   };
   reader.readAsDataURL(imageFileInput.files[0]);
 });
@@ -103,21 +103,24 @@ imageFileInput.addEventListener('change', (e) => {
     imagePreview.setAttribute('src', imageUrl);
     imagePreview.style.display = 'block';
   };
-
+  
   reader.readAsDataURL(file);
 });
 
 chatBox.addEventListener('click', () => {
+  chatBox.style.display = 'none';
   inputForm.style.display = 'block';
 });
 
 cancelButton.addEventListener('click', () => {
   inputForm.style.display = 'none';
+  chatBox.style.display = 'block';
 });
 
 postForm.addEventListener('keydown', (e) => {
   if (e.key === "Enter") {
     e.preventDefault();
     postForm.dispatchEvent(new Event('submit'));
+    chatBox.style.display = 'block';
   }
 });
