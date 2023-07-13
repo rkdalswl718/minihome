@@ -1,0 +1,2 @@
+# minihome
+WELCOME TO MINJIWORD ! 🌈💕
