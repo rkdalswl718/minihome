@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
 @font-face {
     font-family: 'DungGeunMo';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/DungGeunMo.woff') format('woff');
@@ -57,7 +58,7 @@ h4 {
     width: 20vw;
     height: 80vh;
     margin-top: 1.7vh;
-    margin-left:2.5vw;
+    margin-left: 2.5vw;
     border-radius: 1rem;
     font-family: 'DungGeunMo';
 
@@ -76,13 +77,13 @@ h4 {
     align-items: center;
     justify-content: center;
     margin-left: 1.25vw;
-        margin-top: 2vh;
-        
+    margin-top: 2vh;
+
 }
 
 .mainImage {
     background-color: rgba(255, 237, 250, 1);
-    width:17.5vw;
+    width: 17.5vw;
     height: 24vh;
     border-radius: 0.7rem;
     align-items: center;
@@ -97,7 +98,7 @@ h4 {
     width: 15.3vw;
     height: 21vh;
     border-radius: 0.4rem;
-    object-fit: cover;a
+    object-fit: cover;
 }
 
 #notice {
@@ -124,13 +125,15 @@ h4 {
 
 .friending {
     display: flex;
-    flex-wrap: wrap; /* 이미지를 여러 줄로 나누기 위해 필요한 속성 */
+    flex-wrap: wrap;
+    /* 이미지를 여러 줄로 나누기 위해 필요한 속성 */
     align-items: center;
-    justify-content: center; /* 가로 정렬을 위해 필요한 속성 */
+    justify-content: center;
+    /* 가로 정렬을 위해 필요한 속성 */
     margin-top: 1.5vh;
 }
 
-.friending1 > img {
+.friending1>img {
     border-radius: 0.3rem;
     width: 5vw;
     height: 10vh;
@@ -138,7 +141,7 @@ h4 {
     margin-bottom: 0.5vh;
 }
 
-.friending2 > img {
+.friending2>img {
     border-radius: 0.3rem;
     width: 5vw;
     height: 10vh;
@@ -165,14 +168,14 @@ h4 {
     justify-content: center;
     flex-direction: column;
     position: absolute;
-    left:1;
-    top: 0; 
+    left: 1;
+    top: 0;
     margin-top: 16vh;
     margin-left: 42vw;
 }
 
 
-#li > li {
+#li>li {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -187,7 +190,7 @@ h4 {
     font-family: 'DungGeunMo';
 }
 
-#li > li:hover {
+#li>li:hover {
     background-color: rgba(245, 245, 245, 1);
 }
 
@@ -219,9 +222,9 @@ a {
 }
 
 .myInfo {
-    margin-left:8vw;
+    margin-left: 8vw;
 
-    
+
 }
 
 .minibox1 {
@@ -230,7 +233,7 @@ a {
     align-items: center;
 }
 
-.li2 > li {
+.li2>li {
     list-style: none;
     font-size: 15px;
     margin-top: 1vh;
